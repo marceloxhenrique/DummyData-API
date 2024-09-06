@@ -1,0 +1,172 @@
+[
+  {
+    "id": 1,
+    "username": "joaosilva",
+    "firstName": "João",
+    "lastName": "Silva",
+    "birthDate": "1995-05-15",
+    "phone": "+55 11 98765-4321",
+    "email": "joao.silva@example.com.br",
+    "address": {
+      "country": "Brasil",
+      "state": "São Paulo",
+      "city": "São Paulo",
+      "street": "123 Rua da Alegria",
+      "postalCode": "01000-000"
+    },
+    "role": "Usuário"
+  },
+  {
+    "id": 2,
+    "username": "mariasantos",
+    "firstName": "Maria",
+    "lastName": "Santos",
+    "birthDate": "1991-08-22",
+    "phone": "+55 21 98765-4321",
+    "email": "maria.santos@example.com.br",
+    "address": {
+      "country": "Brasil",
+      "state": "Rio de Janeiro",
+      "city": "Rio de Janeiro",
+      "street": "456 Avenida Copacabana",
+      "postalCode": "22000-000"
+    },
+    "role": "Administrador"
+  },
+  {
+    "id": 3,
+    "username": "migueldias",
+    "firstName": "Miguel",
+    "lastName": "Dias",
+    "birthDate": "1983-12-05",
+    "phone": "+55 31 98765-4321",
+    "email": "miguel.dias@example.com.br",
+    "address": {
+      "country": "Brasil",
+      "state": "Minas Gerais",
+      "city": "Belo Horizonte",
+      "street": "789 Rua da Liberdade",
+      "postalCode": "30100-000"
+    },
+    "role": "Moderador"
+  },
+  {
+    "id": 4,
+    "username": "juliapereira",
+    "firstName": "Julia",
+    "lastName": "Pereira",
+    "birthDate": "1997-03-30",
+    "phone": "+55 41 98765-4321",
+    "email": "julia.pereira@example.com.br",
+    "address": {
+      "country": "Brasil",
+      "state": "Paraná",
+      "city": "Curitiba",
+      "street": "321 Rua das Flores",
+      "postalCode": "80000-000"
+    },
+    "role": "Usuário"
+  },
+  {
+    "id": 5,
+    "username": "danieloliveira",
+    "firstName": "Daniel",
+    "lastName": "Oliveira",
+    "birthDate": "1986-07-11",
+    "phone": "+55 51 98765-4321",
+    "email": "daniel.oliveira@example.com.br",
+    "address": {
+      "country": "Brasil",
+      "state": "Rio Grande do Sul",
+      "city": "Porto Alegre",
+      "street": "654 Rua dos Andradas",
+      "postalCode": "90000-000"
+    },
+    "role": "Usuário"
+  },
+  {
+    "id": 6,
+    "username": "lindamartins",
+    "firstName": "Linda",
+    "lastName": "Martins",
+    "birthDate": "1988-10-23",
+    "phone": "+55 62 98765-4321",
+    "email": "linda.martins@example.com.br",
+    "address": {
+      "country": "Brasil",
+      "state": "Goiás",
+      "city": "Goiânia",
+      "street": "303 Rua das Palmeiras",
+      "postalCode": "74000-000"
+    },
+    "role": "Administrador"
+  },
+  {
+    "id": 7,
+    "username": "micheldasilva",
+    "firstName": "Michel",
+    "lastName": "da Silva",
+    "birthDate": "1981-11-19",
+    "phone": "+55 81 98765-4321",
+    "email": "michel.dasilva@example.com.br",
+    "address": {
+      "country": "Brasil",
+      "state": "Pernambuco",
+      "city": "Recife",
+      "street": "89 Rua da Aurora",
+      "postalCode": "50000-000"
+    },
+    "role": "Moderador"
+  },
+  {
+    "id": 8,
+    "username": "sarahsouza",
+    "firstName": "Sarah",
+    "lastName": "Souza",
+    "birthDate": "1994-02-10",
+    "phone": "+55 21 98765-4321",
+    "email": "sarah.souza@example.com.br",
+    "address": {
+      "country": "Brasil",
+      "state": "Rio de Janeiro",
+      "city": "Niterói",
+      "street": "12 Rua dos Girassóis",
+      "postalCode": "24300-000"
+    },
+    "role": "Usuário"
+  },
+  {
+    "id": 9,
+    "username": "jamesmoura",
+    "firstName": "James",
+    "lastName": "Moura",
+    "birthDate": "1996-04-25",
+    "phone": "+55 11 98765-4321",
+    "email": "james.moura@example.com.br",
+    "address": {
+      "country": "Brasil",
+      "state": "São Paulo",
+      "city": "Campinas",
+      "street": "45 Rua da Paz",
+      "postalCode": "13000-000"
+    },
+    "role": "Usuário"
+  },
+  {
+    "id": 10,
+    "username": "oliviacampos",
+    "firstName": "Olívia",
+    "lastName": "Campos",
+    "birthDate": "1992-09-14",
+    "phone": "+55 31 98765-4321",
+    "email": "olivia.campos@example.com.br",
+    "address": {
+      "country": "Brasil",
+      "state": "Minas Gerais",
+      "city": "Uberlândia",
+      "street": "67 Rua das Orquídeas",
+      "postalCode": "38400-000"
+    },
+    "role": "Administrador"
+  }
+]
