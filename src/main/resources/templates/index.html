@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DummyData</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:ital@0;1&display=swap');
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      font-family: "Lato", sans-serif;
+      background-color: #007BFF;
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      margin: 10px 0 0;
+      font-size: 1.2em;
+    }
+
+    nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: auto;
+      max-width: 1045px;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 7px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      font-family: "Open Sans", sans-serif;
+    }
+
+    h2,
+    h3 {
+      font-family: "Lato", sans-serif;
+      font-weight: 700;
+      color: #007BFF;
+      margin-top: 0;
+    }
+
+    .code-snippet {
+      background-color: #f4f4f4;
+      padding: 10px;
+      border-left: 5px solid #007BFF;
+      font-family: monospace;
+      white-space: pre-wrap;
+      margin-bottom: 20px;
+      font-weight: 700;
+      overflow: auto;
+      font-size: 15px;
+    }
+
+    .url {
+      color: #007BFF;
+    }
+
+    .resources-list,
+    .routes-list {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .resources-list li strong,
+    .routes-list li strong {
+      color: #007BFF;
+    }
+
+    footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      text-align: center;
+      margin-top: 40px;
+      padding: 20px;
+      background-color: #007BFF;
+      color: white;
+      gap: 5px;
+    }
+
+    footer p {
+      margin: 0;
+    }
+
+    footer>p>a>span {
+      text-decoration: underline;
+      color: rgb(0, 0, 0);
+    }
+
+    li>a {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 10px;
+    }
+
+    a {
+      text-decoration: none;
+      color: rgb(23, 23, 23);
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div>
+        <h1>DummyData API</h1>
+        <p>Instant Mock Data for Developers</p>
+      </div>
+      <div>
+        <label for="language" th:text="#{label.selecte.lang}">: </label>
+        <select id="language" onchange="changeLanguage()">
+          <option th:text="#{label.lang}"></option>
+          <option value="en" th:text="#{label.english}"></option>
+          <option value="fr" th:text="#{label.french}"></option>
+          <option value="pt" th:text="#{label.portuguese}"></option>
+        </select>
+      </div>
+    </nav>
+  </header>
+
+  <section>
+    <h2 th:text="#{label.about.title}"></h2>
+    <p th:text="#{label.about.text}"></p>
+  </section>
+
+  <section>
+    <h2 th:text="#{label.try.title}"></h2>
+    <p th:text="#{label.try.text}"></p>
+    <div class="code-snippet">
+      fetch(<span class="url">'https://dummydata.onrender.com/api/users/1'</span>)<br>
+      .then(response => response.json())<br>
+      .then(json => console.log(json))
+    </div>
+  </section>
+
+  <section>
+    <h2 th:text="#{label.why.title}"></h2>
+    <p th:text="#{label.why.text}"></p>
+  </section>
+
+  <section>
+    <h2 th:text="#{label.available.resources}"></h2>
+    <ul class="resources-list">
+      <li>
+        <a href="/api/users">
+          <strong>/users</strong> - <p th:text="#{label.available.resources.text}"></p>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 th:text="#{label.suported}"></h2>
+    <ul class="routes-list">
+      <li>
+        <a href="/api/users">
+          <strong>GET</strong> /users
+        </a>
+      </li>
+      <li>
+        <a href="/api/users/1">
+          <strong>GET</strong> /users/1
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 th:text="#{label.features.title}"></h2>
+    <ul class="routes-list">
+      <li>
+        <strong th:text="#{label.features.subtitle1}"></strong>
+        <p th:text="#{label.features.text1}"></p>
+      </li>
+      <hr>
+      <li>
+        <strong th:text="#{label.features.subtitle2}"></strong>
+        <p th:text="#{label.features.text2}"></p>
+      </li>
+      <hr>
+      <li>
+        <strong th:text="#{label.features.subtitle3}"></strong>
+        <br>
+        <p th:text="#{label.features.text3}"></p>
+      </li>
+    </ul>
+  </section>
+
+  <footer>
+    <p th:text="#{label.footer}"></p>
+    <a href="https://github.com/marceloxhenrique" target="_blank">
+      <span th:text="${name}"> </span>
+    </a>
+    &copy; 2024
+  </footer>
+  <script>
+    function changeLanguage() {
+      let selectedLang = document.getElementById("language").value;
+      window.location.href = "?lang=" + selectedLang;
+    }
+  </script>
+</body>
+
+</html>
