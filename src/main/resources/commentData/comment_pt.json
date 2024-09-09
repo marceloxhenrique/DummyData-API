@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "userId": 1,
+    "title": "Ótima Reunião de Equipe!",
+    "body": "Eu realmente gostei da nossa reunião de equipe hoje. As novas ideias de projeto foram fantásticas e agradeço a contribuição de todos.",
+    "createdAt": "2024-09-01T10:45:23"
+  },
+  {
+    "id": 2,
+    "userId": 2,
+    "title": "Pausa para um Café?",
+    "body": "Alguém está a fim de uma pausa para o café mais tarde? Acho que todos poderíamos usar um pequeno intervalo depois dessa intensa sessão de brainstorming.",
+    "createdAt": "2024-09-02T14:22:11"
+  },
+  {
+    "id": 3,
+    "userId": 3,
+    "title": "Planos para o Fim de Semana",
+    "body": "Estou planejando ir nas trilhas de caminhada este fim de semana. Quem está interessado em se juntar para uma pequena aventura ao ar livre?",
+    "createdAt": "2024-09-03T09:30:45"
+  },
+  {
+    "id": 4,
+    "userId": 4,
+    "title": "Obrigado pela Ajuda!",
+    "body": "Um grande obrigado a Sarah por me ajudar com os slides da apresentação. Não teria conseguido fazer isso sem sua ajuda!",
+    "createdAt": "2024-09-04T16:14:32"
+  },
+  {
+    "id": 5,
+    "userId": 5,
+    "title": "Festa no Escritório",
+    "body": "A festa do escritório foi incrível ontem à noite! Ótima comida, ótima companhia e muita diversão. Mal posso esperar pela próxima!",
+    "createdAt": "2024-09-05T11:09:10"
+  },
+  {
+    "id": 6,
+    "userId": 6,
+    "title": "Parabéns, Mark!",
+    "body": "Desejando a Mark um feliz aniversário hoje! Espero que você tenha um dia fantástico e um ano maravilhoso pela frente.",
+    "createdAt": "2024-09-06T13:33:19"
+  },
+  {
+    "id": 7,
+    "userId": 7,
+    "title": "Lembrete do Prazo do Projeto",
+    "body": "Apenas um lembrete rápido de que nosso prazo do projeto está se aproximando. Vamos garantir que estamos no caminho certo e prontos!",
+    "createdAt": "2024-09-07T08:40:00"
+  },
+  {
+    "id": 8,
+    "userId": 8,
+    "title": "Obrigado pelo Seu Apoio",
+    "body": "Eu queria agradecer a todos pelo apoio durante minha apresentação. Seu incentivo e feedback foram inestimaveis.",
+    "createdAt": "2024-09-07T15:55:25"
+  },
+  {
+    "id": 9,
+    "userId": 9,
+    "title": "Feedback sobre o Saída da Equipe",
+    "body": "A saída da equipe foi muito divertida! Adoraria ouvir o feedback de todos e sugestões para nossa próxima saída.",
+    "createdAt": "2024-09-08T09:12:45"
+  },
+  {
+    "id": 10,
+    "userId": 10,
+    "title": "Nova Decoração do Escritório",
+    "body": "Vocês já viram a nova decoração do escritório? Está incrível! As novas plantas e obras de arte realmente iluminam o espaço.",
+    "createdAt": "2024-09-08T11:28:30"
+  },
+  {
+    "id": 11,
+    "userId": 1,
+    "title": "Planos para o Almoço?",
+    "body": "Quem está a fim de almoçar hoje? Estou pensando em experimentar aquela nova delicatessen lá embaixo na rua.",
+    "createdAt": "2024-09-09T12:05:50"
+  },
+  {
+    "id": 12,
+    "userId": 2,
+    "title": "Desafio de Fitness do Escritório",
+    "body": "Estamos começando um desafio de fitness na próxima semana. Alguém está interessado em participar? Vamos ficar ativos juntos!",
+    "createdAt": "2024-09-10T14:22:30"
+  },
+  {
+    "id": 13,
+    "userId": 3,
+    "title": "Atualização do Projeto Necessária",
+    "body": "Podemos obter uma atualização rápida sobre o status do projeto? Gostaria de garantir que estamos atendendo a todos os nossos marcos.",
+    "createdAt": "2024-09-11T10:50:15"
+  },
+  {
+    "id": 14,
+    "userId": 4,
+    "title": "Reunião do Clube do Livro",
+    "body": "Nosso clube do livro está se reunindo nesta sexta-feira. Discutiremos o último romance. Espero vê-los todos lá!",
+    "createdAt": "2024-09-12T09:17:00"
+  },
+  {
+    "id": 15,
+    "userId": 5,
+    "title": "Feedback do Site",
+    "body": "O novo design do site está ótimo! Alguns pequenos ajustes podem ser necessários, mas no geral, é muito impressionante.",
+    "createdAt": "2024-09-13T11:45:05"
+  },
+  {
+    "id": 16,
+    "userId": 6,
+    "title": "Churrasco no Fim de Semana",
+    "body": "Estou organizando um churrasco na minha casa este fim de semana. Sinta-se à vontade para trazer sua família e amigos!",
+    "createdAt": "2024-09-14T15:32:20"
+  },
+  {
+    "id": 17,
+    "userId": 7,
+    "title": "Palestra de Tecnologia na Próxima Semana",
+    "body": "Temos uma palestra de tecnologia agendada para a próxima semana. Certifique-se de preparar quaisquer perguntas que você possa ter.",
+    "createdAt": "2024-09-15T09:55:10"
+  },
+  {
+    "id": 18,
+    "userId": 8,
+    "title": "Suporte para Novo Software",
+    "body": "Preciso de ajuda com a implementação do novo software. Alguém com experiência nisso pode me ajudar?",
+    "createdAt": "2024-09-16T13:40:25"
+  },
+  {
+    "id": 19,
+    "userId": 9,
+    "title": "Planos para Happy Hour",
+    "body": "Estamos planejando um happy hour nesta quinta-feira. Junte-se a nós para bebidas e bate-papo casual após o trabalho!",
+    "createdAt": "2024-09-17T17:20:55"
+  },
+  {
+    "id": 20,
+    "userId": 10,
+    "title": "Feedback da Reunião com o Cliente",
+    "body": "Ótimo trabalho na reunião com o cliente hoje. Sua apresentação foi perfeita e o feedback foi muito positivo!",
+    "createdAt": "2024-09-18T11:25:40"
+  },
+  {
+    "id": 21,
+    "userId": 1,
+    "title": "Solicitação de Material de Escritório",
+    "body": "Alguém pode, por favor, pedir mais material de escritório? Estamos com poucas canetas e cadernos.",
+    "createdAt": "2024-09-19T08:40:00"
+  },
+  {
+    "id": 22,
+    "userId": 2,
+    "title": "Atividade de Formação de Equipe",
+    "body": "Estamos planejando uma atividade de formação de equipe na próxima semana. Fique atento para mais detalhes e prepare-se para se divertir!",
+    "createdAt": "2024-09-20T14:22:30"
+  },
+  {
+    "id": 23,
+    "userId": 3,
+    "title": "Almoço Fora Hoje?",
+    "body": "Pensando em sair para almoçar hoje. Alguém está interessado em se juntar? Sugestões de lugares são bem-vindas!",
+    "createdAt": "2024-09-21T12:10:00"
+  },
+  {
+    "id": 24,
+    "userId": 4,
+    "title": "Dicas para Apresentações",
+    "body": "Alguém tem dicas para fazer uma ótima apresentação? Estou me preparando para uma na próxima semana e poderia usar alguns conselhos.",
+    "createdAt": "2024-09-22T09:25:45"
+  },
+  {
+    "id": 25,
+    "userId": 5,
+    "title": "Avaliação de Desempenho da Equipe",
+    "body": "Precisamos agendar nossas avaliações de desempenho da equipe. Vamos coordenar os horários e garantir que todos estejam prontos.",
+    "createdAt": "2024-09-23T10:55:00"
+  },
+  {
+    "id": 26,
+    "userId": 6,
+    "title": "Ergonomia do Escritório",
+    "body": "Estou organizando um seminário sobre ergonomia de escritório. Alguém está interessado em participar? É importante ficar confortável no trabalho.",
+    "createdAt": "2024-09-24T11:30:15"
+  },
+  {
+    "id": 27,
+    "userId": 7,
+    "title": "Colaboração no Projeto",
+    "body": "Vamos discutir maneiras de melhorar nossa colaboração no projeto. Acho que podemos simplificar nossos processos para melhores resultados.",
+    "createdAt": "2024-09-25T13:05:20"
+  },
+  {
+    "id": 28,
+    "userId": 8,
+    "title": "Feedback sobre Mudanças Recentes",
+    "body": "Adoraria receber seu feedback sobre as recentes mudanças que fizemos. O que você acha do novo sistema?",
+    "createdAt": "2024-09-26T09:40:35"
+  },
+  {
+    "id": 29,
+    "userId": 9,
+    "title": "Conferência Iminente",
+    "body": "Nossa equipe está participando de uma conferência no próximo mês. Vamos preparar nossos materiais e aproveitar ao máximo esta oportunidade.",
+    "createdAt": "2024-09-27T10:15:00"
+  },
+  {
+    "id": 30,
+    "userId": 10,
+    "title": "Bom Trabalho",
+    "body": "Só queria dizer um bom trabalho no projeto recente. Seu trabalho duro e dedicação realmente valeram a pena.",
+    "createdAt": "2024-09-28T12:30:45"
+  },
+  {
+    "id": 31,
+    "userId": 1,
+    "title": "Relatório Mensal",
+    "body": "Lembrete para preparar seus relatórios mensais até o final da semana. Vamos garantir que tudo esteja atualizado.",
+    "createdAt": "2024-09-29T09:20:55"
+  },
+  {
+    "id": 32,
+    "userId": 2,
+    "title": "Concurso de Decoração do Escritório",
+    "body": "Estamos realizando um concurso de decoração de escritório! Decore seu espaço de trabalho e envie fotos até a próxima sexta-feira. Há prêmios esperando!",
+    "createdAt": "2024-09-30T10:40:20"
+  },
+  {
+    "id": 33,
+    "userId": 3,
+    "title": "Reunião Reagendada",
+    "body": "A reunião do projeto foi reagendada para segunda-feira. Por favor, ajuste suas agendas de acordo.",
+    "createdAt": "2024-10-01T11:00:10"
+  },
+  {
+    "id": 34,
+    "userId": 4,
+    "title": "Workshop de Tecnologia",
+    "body": "Estamos organizando um workshop de tecnologia na próxima semana. É uma ótima oportunidade para aprender novas habilidades e melhorar nosso conhecimento tecnológico.",
+    "createdAt": "2024-10-02T14:15:25"
+  },
+  {
+    "id": 35,
+    "userId": 5,
+    "title": "Dia de Trabalho em Casa",
+    "body": "Não se esqueça que esta sexta-feira é um dia de trabalho em casa. Certifique-se de ter tudo configurado para o trabalho remoto.",
+    "createdAt": "2024-10-03T09:50:45"
+  },
+  {
+    "id": 36,
+    "userId": 6,
+    "title": "Oportunidade de Voluntariado",
+    "body": "Temos uma oportunidade de voluntariado no abrigo local este fim de semana. Alguém está interessado em participar?",
+    "createdAt": "2024-10-04T10:20:30"
+  },
+  {
+    "id": 37,
+    "userId": 7,
+    "title": "Relatório de Problema Técnico",
+    "body": "Estou enfrentando problemas com a nova configuração técnica. Alguém pode ajudar com a solução de problemas?",
+    "createdAt": "2024-10-05T11:35:15"
+  },
+  {
+    "id": 38,
+    "userId": 8,
+    "title": "Início de Novo Projeto",
+    "body": "Estamos iniciando um novo projeto na próxima semana. Vamos planejar uma reunião de início para alinhar todos.",
+    "createdAt": "2024-10-06T14:50:45"
+  },
+  {
+    "id": 39,
+    "userId": 9,
+    "title": "Mudança de Horário de Escritório",
+    "body": "O horário de escritório está mudando para 9h - 18h a partir da próxima semana. Por favor, ajuste suas agendas de acordo.",
+    "createdAt": "2024-10-07T08:25:30"
+  },
+  {
+    "id": 40,
+    "userId": 10,
+    "title": "Feedback da Pesquisa",
+    "body": "Por favor, reserve um momento para preencher a pesquisa sobre as mudanças recentes. Seu feedback é importante para melhorias futuras.",
+    "createdAt": "2024-10-08T12:05:00"
+  },
+  {
+    "id": 41,
+    "userId": 1,
+    "title": "Novo Membro da Equipe",
+    "body": "Temos um novo membro da equipe se juntando a nós na próxima semana. Vamos garantir que lhe demos uma recepção calorosa!",
+    "createdAt": "2024-10-09T09:30:55"
+  },
+  {
+    "id": 42,
+    "userId": 2,
+    "title": "Feedback sobre o Projeto Recente",
+    "body": "Adoraria receber seu feedback sobre o projeto recente. O que deu certo e o que podemos melhorar?",
+    "createdAt": "2024-10-10T10:45:00"
+  },
+  {
+    "id": 43,
+    "userId": 3,
+    "title": "Potluck do Escritório",
+    "body": "Estamos organizando um potluck no escritório na próxima sexta-feira. Traga um prato para compartilhar e junte-se a nós para uma comida deliciosa!",
+    "createdAt": "2024-10-11T11:00:30"
+  },
+  {
+    "id": 44,
+    "userId": 4,
+    "title": "Reunião Importante",
+    "body": "Há uma reunião importante agendada para amanhã. Certifique-se de estar preparado com todo o material necessário.",
+    "createdAt": "2024-10-12T13:20:25"
+  },
+  {
+    "id": 45,
+    "userId": 5,
+    "title": "Almoço da Equipe",
+    "body": "Vamos planejar um almoço de equipe para celebrar nosso sucesso recente. Que tal na próxima terça-feira?",
+    "createdAt": "2024-10-13T14:35:10"
+  },
+  {
+    "id": 46,
+    "userId": 6,
+    "title": "Lembrete: Revisão Mensal",
+    "body": "Apenas um lembrete de que nossa revisão mensal está agendada para amanhã. Por favor, esteja pronto para discutir seu progresso.",
+    "createdAt": "2024-10-14T09:15:40"
+  },
+  {
+    "id": 47,
+    "userId": 7,
+    "title": "Documentação do Projeto",
+    "body": "Precisamos finalizar a documentação do projeto até o final do dia. Vamos garantir que tudo esteja completo.",
+    "createdAt": "2024-10-15T10:25:30"
+  },
+  {
+    "id": 48,
+    "userId": 8,
+    "title": "Feedback sobre Nova Política",
+    "body": "O que você acha das novas mudanças de política? Seu feedback é valioso enquanto nos adaptamos a essas mudanças.",
+    "createdAt": "2024-10-16T12:40:00"
+  },
+  {
+    "id": 49,
+    "userId": 9,
+    "title": "Dicas de Segurança do Escritório",
+    "body": "Vamos revisar algumas dicas importantes de segurança do escritório. É crucial manter nosso espaço de trabalho seguro e protegido.",
+    "createdAt": "2024-10-17T13:30:25"
+  },
+  {
+    "id": 50,
+    "userId": 10,
+    "title": "Boletim Mensal",
+    "body": "O boletim mensal está disponível! Verifique sua caixa de entrada para atualizações e anúncios importantes.",
+    "createdAt": "2024-10-18T14:55:00"
+  },
+  {
+    "id": 51,
+    "userId": 1,
+    "title": "Evento de Networking",
+    "body": "Temos um evento de networking nesta sexta-feira à noite. É uma ótima chance de conhecer profissionais do setor e expandir sua rede.",
+    "createdAt": "2024-10-19T15:20:10"
+  },
+  {
+    "id": 52,
+    "userId": 2,
+    "title": "Treinamento de Novo Software",
+    "body": "Estamos organizando uma sessão de treinamento para o novo software na próxima semana. Certifique-se de se inscrever e participar.",
+    "createdAt": "2024-10-20T16:40:25"
+  },
+  {
+    "id": 53,
+    "userId": 3,
+    "title": "Festa de Fim de Ano",
+    "body": "A festa de fim de ano está chegando! Vamos planejar algumas atividades e torná-la um evento memorável para todos.",
+    "createdAt": "2024-10-21T09:55:30"
+  },
+  {
+    "id": 54,
+    "userId": 4,
+    "title": "Manutenção do Escritório",
+    "body": "A manutenção do escritório será realizada neste fim de semana. Certifique-se de salvar seu trabalho e se preparar para quaisquer interrupções.",
+    "createdAt": "2024-10-22T10:15:45"
+  },
+  {
+    "id": 55,
+    "userId": 5,
+    "title": "Encerramento do Projeto",
+    "body": "Estamos encerrando o projeto atual esta semana. Vamos ter uma reunião final de revisão para discutir os resultados e os próximos passos.",
+    "createdAt": "2024-10-23T11:30:00"
+  },
+  {
+    "id": 56,
+    "userId": 6,
+    "title": "Seminário de Saúde e Bem-Estar",
+    "body": "Estamos organizando um seminário sobre saúde e bem-estar no próximo mês. É uma ótima oportunidade para aprender sobre como manter um equilíbrio saudável entre trabalho e vida pessoal.",
+    "createdAt": "2024-10-24T12:45:30"
+  },
+  {
+    "id": 57,
+    "userId": 7,
+    "title": "Lembrete: Pesquisa da Equipe",
+    "body": "Não se esqueça de completar a pesquisa da equipe até o final da semana. Seu feedback nos ajuda a melhorar.",
+    "createdAt": "2024-10-25T13:55:20"
+  },
+  {
+    "id": 58,
+    "userId": 8,
+    "title": "Problemas com o Wi-Fi do Escritório",
+    "body": "Estamos enfrentando problemas com o Wi-Fi do escritório. O TI está trabalhando nisso, mas por favor, informe-os se você encontrar algum problema.",
+    "createdAt": "2024-10-26T14:20:10"
+  },
+  {
+    "id": 59,
+    "userId": 9,
+    "title": "Feedback sobre a Atividade de Equipe",
+    "body": "Como você achou a recente atividade de formação de equipe? Alguma sugestão para eventos futuros?",
+    "createdAt": "2024-10-27T15:35:00"
+  },
+  {
+    "id": 60,
+    "userId": 10,
+    "title": "Agradecimento ao Cliente",
+    "body": "Estamos planejando um evento de agradecimento ao cliente. Se você tiver alguma ideia ou quiser ajudar, por favor, me avise.",
+    "createdAt": "2024-10-28T16:40:45"
+  },
+  {
+    "id": 61,
+    "userId": 1,
+    "title": "Sessão de Treinamento",
+    "body": "Lembrete de que temos uma sessão de treinamento amanhã às 10h. Não se esqueça de trazer seus materiais!",
+    "createdAt": "2024-10-29T09:45:20"
+  },
+  {
+    "id": 62,
+    "userId": 2,
+    "title": "Inscrição no Potluck do Escritório",
+    "body": "Se você estiver trazendo algo para o potluck, por favor, se inscreva na folha na sala de descanso. Vamos fazer um grande lanche!",
+    "createdAt": "2024-10-30T10:55:00"
+  },
+  {
+    "id": 63,
+    "userId": 3,
+    "title": "Dicas de Networking",
+    "body": "Alguém tem dicas para aproveitar ao máximo os eventos de networking? Estou participando de um na próxima semana e poderia usar alguns conselhos.",
+    "createdAt": "2024-10-31T11:30:15"
+  },
+  {
+    "id": 64,
+    "userId": 4,
+    "title": "Feedback sobre a Proposta",
+    "body": "Agradeço seu feedback sobre a proposta do projeto. Qualquer pensamento ou sugestão é bem-vindo.",
+    "createdAt": "2024-11-01T12:45:00"
+  },
+  {
+    "id": 65,
+    "userId": 5,
+    "title": "Troca de Presentes de Fim de Ano",
+    "body": "Estamos organizando uma troca de presentes de fim de ano. Se você quiser participar, por favor, se inscreva até a próxima sexta-feira.",
+    "createdAt": "2024-11-02T13:30:10"
+  },
+  {
+    "id": 66,
+    "userId": 6,
+    "title": "Lembrete: Revisão Anual",
+    "body": "As revisões anuais estão chegando na próxima semana. Por favor, certifique-se de preparar sua autoavaliação e quaisquer documentos de suporte.",
+    "createdAt": "2024-11-03T09:25:40"
+  },
+  {
+    "id": 67,
+    "userId": 7,
+    "title": "Objetivos da Equipe",
+    "body": "Vamos definir nossos objetivos de equipe para o próximo trimestre. Por favor, venha preparado com suas ideias para a reunião da próxima segunda-feira.",
+    "createdAt": "2024-11-04T10:40:25"
+  },
+  {
+    "id": 68,
+    "userId": 8,
+    "title": "Feedback sobre o Treinamento",
+    "body": "Gostaria de ouvir suas opiniões sobre a recente sessão de treinamento. Foi útil? Há alguma área para melhorias?",
+    "createdAt": "2024-11-05T12:30:10"
+  },
+  {
+    "id": 69,
+    "userId": 9,
+    "title": "Reformas no Escritório",
+    "body": "Estamos começando as reformas no escritório na próxima semana. Espere algum ruído e interrupção, mas valerá a pena pelo espaço de trabalho melhorado.",
+    "createdAt": "2024-11-06T13:15:00"
+  },
+  {
+    "id": 70,
+    "userId": 10,
+    "title": "Feedback do Cliente",
+    "body": "Recebemos ótimos feedbacks dos clientes recentemente. Vamos revisá-lo e discutir quaisquer ações que devemos tomar.",
+    "createdAt": "2024-11-07T14:25:45"
+  },
+  {
+    "id": 71,
+    "userId": 1,
+    "title": "Reunião de Início do Projeto",
+    "body": "Lembrete de que nossa reunião de início do projeto é amanhã. Certifique-se de ter todo o seu material pronto.",
+    "createdAt": "2024-11-08T09:50:00"
+  },
+  {
+    "id": 72,
+    "userId": 2,
+    "title": "Ideias para Almoço",
+    "body": "Procurando ideias para o almoço. Alguma recomendação de lugares próximos? Estou aberto a experimentar algo novo!",
+    "createdAt": "2024-11-09T10:35:30"
+  },
+  {
+    "id": 73,
+    "userId": 3,
+    "title": "Funcionário do Mês",
+    "body": "Parabéns à Lisa por ser nomeada Funcionária do Mês! Seu trabalho duro e dedicação são realmente apreciados.",
+    "createdAt": "2024-11-10T11:20:15"
+  },
+  {
+    "id": 74,
+    "userId": 4,
+    "title": "Almoço da Equipe Fora",
+    "body": "Que tal um almoço de equipe fora nesta sexta-feira? É uma ótima maneira de relaxar e celebrar nossas recentes conquistas.",
+    "createdAt": "2024-11-11T12:55:30"
+  },
+  {
+    "id": 75,
+    "userId": 5,
+    "title": "Preparação para a Conferência",
+    "body": "Temos uma conferência chegando. Vamos garantir que nossas apresentações estejam prontas e que tenhamos ensaiado bem.",
+    "createdAt": "2024-11-12T14:20:10"
+  },
+  {
+    "id": 76,
+    "userId": 6,
+    "title": "Ideias para Formação de Equipe",
+    "body": "Alguma sugestão para atividades de formação de equipe? Estamos procurando novas ideias para fomentar o espírito de equipe.",
+    "createdAt": "2024-11-13T15:35:45"
+  },
+  {
+    "id": 77,
+    "userId": 7,
+    "title": "Lembrete: Prazos",
+    "body": "Apenas um lembrete de que vários prazos importantes estão se aproximando. Por favor, revise suas tarefas e priorize de acordo.",
+    "createdAt": "2024-11-14T09:45:00"
+  },
+  {
+    "id": 78,
+    "userId": 8,
+    "title": "Atualização sobre as Políticas",
+    "body": "Atualizamos várias políticas do escritório. Por favor, revise as alterações e me avise se tiver alguma dúvida.",
+    "createdAt": "2024-11-15T10:55:30"
+  },
+  {
+    "id": 79,
+    "userId": 9,
+    "title": "Horário de Férias",
+    "body": "O horário de férias foi finalizado. Por favor, verifique seu e-mail para obter os detalhes e planejar de acordo.",
+    "createdAt": "2024-11-16T11:40:10"
+  },
+  {
+    "id": 80,
+    "userId": 10,
+    "title": "Fechamento do Escritório",
+    "body": "Lembrete de que o escritório estará fechado na próxima segunda-feira devido a um feriado público. Aproveite o fim de semana prolongado!",
+    "createdAt": "2024-11-17T12:20:45"
+  },
+  {
+    "id": 81,
+    "userId": 1,
+    "title": "Sincronização Semanal",
+    "body": "Nossa sincronização semanal está agendada para amanhã. Por favor, esteja preparado para discutir seu progresso e quaisquer bloqueadores.",
+    "createdAt": "2024-11-18T09:30:20"
+  },
+  {
+    "id": 82,
+    "userId": 2,
+    "title": "Celebração de Aniversário no Escritório",
+    "body": "Estamos celebrando aniversários este mês com uma pequena festa no escritório. Junte-se a nós para bolo e festividades!",
+    "createdAt": "2024-11-19T10:45:00"
+  },
+  {
+    "id": 83,
+    "userId": 3,
+    "title": "Preparação para a Reunião com o Cliente",
+    "body": "Temos uma reunião com o cliente amanhã. Por favor, certifique-se de que todos os documentos e apresentações estejam prontos para revisão.",
+    "createdAt": "2024-11-20T11:35:30"
+  },
+  {
+    "id": 84,
+    "userId": 4,
+    "title": "Feedback sobre a Proposta",
+    "body": "Agradeço seu feedback sobre a nova proposta. Sua opinião é crucial antes de finalizá-la.",
+    "createdAt": "2024-11-21T12:50:10"
+  },
+  {
+    "id": 85,
+    "userId": 5,
+    "title": "Suprimentos de Escritório",
+    "body": "Estamos com poucos suprimentos de escritório. Por favor, verifique seu inventário e me avise o que precisa ser reabastecido.",
+    "createdAt": "2024-11-22T14:05:30"
+  },
+  {
+    "id": 86,
+    "userId": 6,
+    "title": "Revisão de Fim de Ano",
+    "body": "As revisões de fim de ano estão chegando. Vamos começar a preparar nossos documentos e resumos de revisão.",
+    "createdAt": "2024-11-23T15:20:00"
+  },
+  {
+    "id": 87,
+    "userId": 7,
+    "title": "Prazo Iminente",
+    "body": "Lembrete de que vários prazos importantes estão se aproximando. Por favor, revise suas tarefas e priorize de acordo.",
+    "createdAt": "2024-11-24T09:10:25"
+  },
+  {
+    "id": 88,
+    "userId": 8,
+    "title": "Planejamento da Festa de Fim de Ano",
+    "body": "Vamos começar a planejar a festa de fim de ano. Qualquer ideia de temas ou atividades é bem-vinda!",
+    "createdAt": "2024-11-25T10:30:45"
+  },
+  {
+    "id": 89,
+    "userId": 9,
+    "title": "Objetivos de Fim de Ano",
+    "body": "Vamos revisar nossos objetivos de fim de ano e garantir que estamos no caminho certo para alcançá-los. Quaisquer ajustes necessários?",
+    "createdAt": "2024-11-26T11:45:00"
+  },
+  {
+    "id": 90,
+    "userId": 10,
+    "title": "Treinamento de Atendimento ao Cliente",
+    "body": "Estamos oferecendo treinamento de atendimento ao cliente no próximo mês. É uma ótima oportunidade para aprimorar suas habilidades. Por favor, inscreva-se se estiver interessado.",
+    "createdAt": "2024-11-27T12:50:30"
+  },
+  {
+    "id": 91,
+    "userId": 1,
+    "title": "Sugestões para Saída da Equipe",
+    "body": "Estamos planejando uma saída de equipe para o próximo mês. Por favor, compartilhe quaisquer sugestões de locais ou atividades.",
+    "createdAt": "2024-11-28T09:25:10"
+  },
+  {
+    "id": 92,
+    "userId": 2,
+    "title": "Preparação para a Revisão Trimestral",
+    "body": "A revisão trimestral está se aproximando. Vamos garantir que todos os relatórios estejam finalizados e prontos para apresentação.",
+    "createdAt": "2024-11-29T10:30:20"
+  },
+  {
+    "id": 93,
+    "userId": 3,
+    "title": "Feedback sobre o Site",
+    "body": "Lançamos nosso novo site. Por favor, forneça feedback sobre sua usabilidade e design.",
+    "createdAt": "2024-11-30T11:40:15"
+  },
+  {
+    "id": 94,
+    "userId": 4,
+    "title": "Reunião Departamental",
+    "body": "Lembrete sobre a reunião departamental agendada para amanhã. Esteja pronto para discutir projetos atuais e quaisquer problemas.",
+    "createdAt": "2024-12-01T12:55:00"
+  },
+  {
+    "id": 95,
+    "userId": 5,
+    "title": "Atualização da Decoração do Escritório",
+    "body": "Estamos atualizando a decoração do escritório na próxima semana. Se você tiver alguma sugestão ou preferência, por favor, nos avise.",
+    "createdAt": "2024-12-02T13:45:30"
+  },
+  {
+    "id": 96,
+    "userId": 6,
+    "title": "Workshop de Treinamento",
+    "body": "Há um workshop de treinamento sobre técnicas avançadas de gerenciamento de projetos na próxima semana. É uma ótima oportunidade para aprimorar suas habilidades.",
+    "createdAt": "2024-12-03T14:50:20"
+  },
+  {
+    "id": 97,
+    "userId": 7,
+    "title": "Revisão Orçamentária",
+    "body": "A reunião de revisão orçamentária está agendada para amanhã. Por favor, certifique-se de que todos os relatórios de despesas estejam atualizados.",
+    "createdAt": "2024-12-04T15:25:10"
+  },
+  {
+    "id": 98,
+    "userId": 8,
+    "title": "Programa de Bem-Estar dos Funcionários",
+    "body": "Estamos lançando um novo programa de bem-estar dos funcionários no próximo mês. Fique atento para mais detalhes sobre como participar.",
+    "createdAt": "2024-12-05T09:15:00"
+  },
+  {
+    "id": 99,
+    "userId": 9,
+    "title": "Evento de Lançamento do Produto",
+    "body": "Estamos planejando um evento de lançamento do produto para o próximo ano. Se você estiver interessado em ajudar com os preparativos, por favor, se inscreva.",
+    "createdAt": "2024-12-06T10:30:45"
+  },
+  {
+    "id": 100,
+    "userId": 10,
+    "title": "Festa de Fim de Ano",
+    "body": "Não se esqueça da festa de fim de ano na próxima sexta-feira. É uma ótima maneira de celebrar nossos sucessos e aproveitar um tempo juntos.",
+    "createdAt": "2024-12-07T11:40:00"
+  }
+]

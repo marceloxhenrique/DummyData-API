@@ -1,0 +1,1702 @@
+[
+  {
+    "id": 1,
+    "username": "jeandupont",
+    "firstName": "Jean",
+    "lastName": "Dupont",
+    "birthDate": "1995-05-15",
+    "phone": "+33 1 23 45 67 89",
+    "email": "jean.dupont@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Île-de-France",
+      "city": "Paris",
+      "street": "123 Rue de la Paix",
+      "postalCode": "75001"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 2,
+    "username": "mariedurand",
+    "firstName": "Marie",
+    "lastName": "Durand",
+    "birthDate": "1991-08-22",
+    "phone": "+33 4 56 78 90 12",
+    "email": "marie.durand@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Provence-Alpes-Côte d'Azur",
+      "city": "Marseille",
+      "street": "456 Avenue du Prado",
+      "postalCode": "13008"
+    },
+    "role": "Administrateur"
+  },
+  {
+    "id": 3,
+    "username": "pierrelegrand",
+    "firstName": "Pierre",
+    "lastName": "Legrand",
+    "birthDate": "1983-12-05",
+    "phone": "+33 3 45 67 89 01",
+    "email": "pierre.legrand@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Hauts-de-France",
+      "city": "Lille",
+      "street": "789 Rue de la Liberté",
+      "postalCode": "59000"
+    },
+    "role": "Modérateur"
+  },
+  {
+    "id": 4,
+    "username": "juliebertrand",
+    "firstName": "Julie",
+    "lastName": "Bertrand",
+    "birthDate": "1997-03-30",
+    "phone": "+33 4 23 45 67 89",
+    "email": "julie.bertrand@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Auvergne-Rhône-Alpes",
+      "city": "Lyon",
+      "street": "321 Rue des Fleurs",
+      "postalCode": "69001"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 5,
+    "username": "danielmartin",
+    "firstName": "Daniel",
+    "lastName": "Martin",
+    "birthDate": "1986-07-11",
+    "phone": "+33 1 98 76 54 32",
+    "email": "daniel.martin@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Nouvelle-Aquitaine",
+      "city": "Bordeaux",
+      "street": "654 Rue Sainte-Catherine",
+      "postalCode": "33000"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 6,
+    "username": "elisemoreau",
+    "firstName": "Elise",
+    "lastName": "Moreau",
+    "birthDate": "1988-10-23",
+    "phone": "+33 5 23 45 67 89",
+    "email": "elise.moreau@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Occitanie",
+      "city": "Toulouse",
+      "street": "303 Rue des Palmiers",
+      "postalCode": "31000"
+    },
+    "role": "Administrateur"
+  },
+  {
+    "id": 7,
+    "username": "michellaroche",
+    "firstName": "Michel",
+    "lastName": "Laroche",
+    "birthDate": "1981-11-19",
+    "phone": "+33 2 45 67 89 01",
+    "email": "michel.laroche@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Normandie",
+      "city": "Rouen",
+      "street": "89 Rue de la République",
+      "postalCode": "76000"
+    },
+    "role": "Modérateur"
+  },
+  {
+    "id": 8,
+    "username": "sarahblanc",
+    "firstName": "Sarah",
+    "lastName": "Blanc",
+    "birthDate": "1994-02-10",
+    "phone": "+33 6 23 45 67 89",
+    "email": "sarah.blanc@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Grand Est",
+      "city": "Strasbourg",
+      "street": "12 Rue des Rosiers",
+      "postalCode": "67000"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 9,
+    "username": "remidubois",
+    "firstName": "Rémi",
+    "lastName": "Dubois",
+    "birthDate": "1996-04-25",
+    "phone": "+33 1 56 78 90 12",
+    "email": "remi.dubois@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Bretagne",
+      "city": "Rennes",
+      "street": "45 Rue de la Paix",
+      "postalCode": "35000"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 10,
+    "username": "oliviadufresne",
+    "firstName": "Olivia",
+    "lastName": "Dufresne",
+    "birthDate": "1992-09-14",
+    "phone": "+33 1 45 67 89 01",
+    "email": "olivia.dufresne@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Pays de la Loire",
+      "city": "Nantes",
+      "street": "67 Rue des Oliviers",
+      "postalCode": "44000"
+    },
+    "role": "Administrateur"
+  },
+  {
+    "id": 11,
+    "username": "thomaslegall",
+    "firstName": "Thomas",
+    "lastName": "Le Gall",
+    "birthDate": "1987-08-05",
+    "phone": "+33 5 67 89 01 23",
+    "email": "thomas.legall@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Nouvelle-Aquitaine",
+      "city": "La Rochelle",
+      "street": "11 Rue de la Marine",
+      "postalCode": "17000"
+    },
+    "role": "Modérateur"
+  },
+  {
+    "id": 12,
+    "username": "laurachapuis",
+    "firstName": "Laura",
+    "lastName": "Chapuis",
+    "birthDate": "1993-11-16",
+    "phone": "+33 4 67 89 01 45",
+    "email": "laura.chapuis@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Occitanie",
+      "city": "Montpellier",
+      "street": "7 Rue de l'Écusson",
+      "postalCode": "34000"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 13,
+    "username": "baptistedelorme",
+    "firstName": "Baptiste",
+    "lastName": "Delorme",
+    "birthDate": "1990-03-21",
+    "phone": "+33 6 67 89 01 45",
+    "email": "baptiste.delorme@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Provence-Alpes-Côte d'Azur",
+      "city": "Nice",
+      "street": "99 Promenade des Anglais",
+      "postalCode": "06000"
+    },
+    "role": "Administrateur"
+  },
+  {
+    "id": 14,
+    "username": "isabellefontaine",
+    "firstName": "Isabelle",
+    "lastName": "Fontaine",
+    "birthDate": "1991-07-11",
+    "phone": "+33 1 67 89 01 56",
+    "email": "isabelle.fontaine@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Île-de-France",
+      "city": "Versailles",
+      "street": "5 Avenue de Paris",
+      "postalCode": "78000"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 15,
+    "username": "jeromeleclerc",
+    "firstName": "Jérôme",
+    "lastName": "Leclerc",
+    "birthDate": "1985-06-13",
+    "phone": "+33 2 67 89 01 67",
+    "email": "jerome.leclerc@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Normandie",
+      "city": "Caen",
+      "street": "88 Rue Saint-Pierre",
+      "postalCode": "14000"
+    },
+    "role": "Modérateur"
+  },
+  {
+    "id": 16,
+    "username": "paulinedumont",
+    "firstName": "Pauline",
+    "lastName": "Dumont",
+    "birthDate": "1994-09-27",
+    "phone": "+33 5 23 45 67 11",
+    "email": "pauline.dumont@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Occitanie",
+      "city": "Perpignan",
+      "street": "10 Rue de la Loge",
+      "postalCode": "66000"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 17,
+    "username": "henrilafont",
+    "firstName": "Henri",
+    "lastName": "Lafont",
+    "birthDate": "1989-12-01",
+    "phone": "+33 2 45 67 89 45",
+    "email": "henri.lafont@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Pays de la Loire",
+      "city": "Angers",
+      "street": "6 Boulevard Foch",
+      "postalCode": "49000"
+    },
+    "role": "Modérateur"
+  },
+  {
+    "id": 18,
+    "username": "clemencemartin",
+    "firstName": "Clémence",
+    "lastName": "Martin",
+    "birthDate": "1997-02-14",
+    "phone": "+33 1 23 45 67 98",
+    "email": "clemence.martin@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Île-de-France",
+      "city": "Boulogne-Billancourt",
+      "street": "4 Rue d'Aguesseau",
+      "postalCode": "92100"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 19,
+    "username": "mathieuletourneau",
+    "firstName": "Mathieu",
+    "lastName": "Letourneau",
+    "birthDate": "1992-06-10",
+    "phone": "+33 5 67 89 01 23",
+    "email": "mathieu.letourneau@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Nouvelle-Aquitaine",
+      "city": "Bayonne",
+      "street": "18 Rue des Basques",
+      "postalCode": "64100"
+    },
+    "role": "Administrateur"
+  },
+  {
+    "id": 20,
+    "username": "charlottedelattre",
+    "firstName": "Charlotte",
+    "lastName": "Delattre",
+    "birthDate": "1990-08-24",
+    "phone": "+33 4 23 45 67 12",
+    "email": "charlotte.delattre@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Auvergne-Rhône-Alpes",
+      "city": "Clermont-Ferrand",
+      "street": "22 Rue Blatin",
+      "postalCode": "63000"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 21,
+    "username": "yannickgiraud",
+    "firstName": "Yannick",
+    "lastName": "Giraud",
+    "birthDate": "1988-05-09",
+    "phone": "+33 3 67 89 01 34",
+    "email": "yannick.giraud@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Bourgogne-Franche-Comté",
+      "city": "Dijon",
+      "street": "9 Rue de la Liberté",
+      "postalCode": "21000"
+    },
+    "role": "Modérateur"
+  },
+  {
+    "id": 22,
+    "username": "luciepicard",
+    "firstName": "Lucie",
+    "lastName": "Picard",
+    "birthDate": "1995-04-18",
+    "phone": "+33 5 12 34 56 78",
+    "email": "lucie.picard@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Nouvelle-Aquitaine",
+      "city": "Poitiers",
+      "street": "17 Rue des Cordeliers",
+      "postalCode": "86000"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 23,
+    "username": "adriendelcroix",
+    "firstName": "Adrien",
+    "lastName": "Delcroix",
+    "birthDate": "1983-07-22",
+    "phone": "+33 1 23 45 67 77",
+    "email": "adrien.delcroix@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Île-de-France",
+      "city": "Fontenay-sous-Bois",
+      "street": "55 Avenue de la République",
+      "postalCode": "94120"
+    },
+    "role": "Administrateur"
+  },
+  {
+    "id": 24,
+    "username": "carolepoulain",
+    "firstName": "Carole",
+    "lastName": "Poulain",
+    "birthDate": "1991-10-07",
+    "phone": "+33 2 67 89 12 34",
+    "email": "carole.poulain@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Bretagne",
+      "city": "Quimper",
+      "street": "21 Rue de Brehat",
+      "postalCode": "29000"
+    },
+    "role": "Modérateur"
+  },
+  {
+    "id": 25,
+    "username": "olivierleroux",
+    "firstName": "Olivier",
+    "lastName": "Le Roux",
+    "birthDate": "1985-12-19",
+    "phone": "+33 4 67 89 01 45",
+    "email": "olivier.leroux@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Occitanie",
+      "city": "Carcassonne",
+      "street": "19 Rue de Verdun",
+      "postalCode": "11000"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 26,
+    "username": "christopheblanc",
+    "firstName": "Christophe",
+    "lastName": "Blanc",
+    "birthDate": "1992-01-11",
+    "phone": "+33 1 34 56 78 90",
+    "email": "christophe.blanc@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Île-de-France",
+      "city": "Saint-Denis",
+      "street": "33 Rue du Stade",
+      "postalCode": "93216"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 27,
+    "username": "marielemarchand",
+    "firstName": "Marie",
+    "lastName": "Le Marchand",
+    "birthDate": "1990-07-15",
+    "phone": "+33 4 56 78 90 12",
+    "email": "marie.lemarchand@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Provence-Alpes-Côte d'Azur",
+      "city": "Aix-en-Provence",
+      "street": "8 Rue des Cordeliers",
+      "postalCode": "13100"
+    },
+    "role": "Modérateur"
+  },
+  {
+    "id": 28,
+    "username": "nicolasroche",
+    "firstName": "Nicolas",
+    "lastName": "Roche",
+    "birthDate": "1987-03-20",
+    "phone": "+33 3 67 89 01 23",
+    "email": "nicolas.roche@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Grand Est",
+      "city": "Reims",
+      "street": "12 Rue Buirette",
+      "postalCode": "51100"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 29,
+    "username": "celinevallee",
+    "firstName": "Céline",
+    "lastName": "Vallée",
+    "birthDate": "1993-09-09",
+    "phone": "+33 5 67 89 12 34",
+    "email": "celine.vallee@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Bourgogne-Franche-Comté",
+      "city": "Besançon",
+      "street": "15 Rue de la République",
+      "postalCode": "25000"
+    },
+    "role": "Administrateur"
+  },
+  {
+    "id": 30,
+    "username": "fredericlouvet",
+    "firstName": "Frédéric",
+    "lastName": "Louvet",
+    "birthDate": "1986-11-30",
+    "phone": "+33 2 34 56 78 90",
+    "email": "frederic.louvet@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Auvergne-Rhône-Alpes",
+      "city": "Saint-Étienne",
+      "street": "22 Rue des Arts",
+      "postalCode": "42000"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 31,
+    "username": "annebrun",
+    "firstName": "Anne",
+    "lastName": "Brun",
+    "birthDate": "1991-05-12",
+    "phone": "+33 4 78 90 12 34",
+    "email": "anne.brun@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Provence-Alpes-Côte d'Azur",
+      "city": "Marseille",
+      "street": "32 Boulevard de la Libération",
+      "postalCode": "13001"
+    },
+    "role": "Modérateur"
+  },
+  {
+    "id": 32,
+    "username": "benoitmorin",
+    "firstName": "Benoît",
+    "lastName": "Morin",
+    "birthDate": "1989-12-15",
+    "phone": "+33 3 45 67 89 56",
+    "email": "benoit.morin@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Hauts-de-France",
+      "city": "Amiens",
+      "street": "4 Rue de la République",
+      "postalCode": "80000"
+    },
+    "role": "Administrateur"
+  },
+  {
+    "id": 33,
+    "username": "victorclaire",
+    "firstName": "Victor",
+    "lastName": "Claire",
+    "birthDate": "1985-08-29",
+    "phone": "+33 1 78 90 12 34",
+    "email": "victor.claire@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Île-de-France",
+      "city": "Neuilly-sur-Seine",
+      "street": "99 Avenue Charles de Gaulle",
+      "postalCode": "92200"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 34,
+    "username": "sandrineaubry",
+    "firstName": "Sandrine",
+    "lastName": "Aubry",
+    "birthDate": "1996-10-08",
+    "phone": "+33 6 78 90 12 34",
+    "email": "sandrine.aubry@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Grand Est",
+      "city": "Metz",
+      "street": "20 Rue de la Paix",
+      "postalCode": "57000"
+    },
+    "role": "Modérateur"
+  },
+  {
+    "id": 35,
+    "username": "thierrylapointe",
+    "firstName": "Thierry",
+    "lastName": "Lapointe",
+    "birthDate": "1984-11-01",
+    "phone": "+33 2 56 78 90 12",
+    "email": "thierry.lapointe@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Normandie",
+      "city": "Le Havre",
+      "street": "35 Rue du Général de Gaulle",
+      "postalCode": "76600"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 36,
+    "username": "claireduval",
+    "firstName": "Claire",
+    "lastName": "Duval",
+    "birthDate": "1995-12-21",
+    "phone": "+33 4 56 78 90 56",
+    "email": "claire.duval@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Auvergne-Rhône-Alpes",
+      "city": "Grenoble",
+      "street": "12 Avenue Alsace-Lorraine",
+      "postalCode": "38000"
+    },
+    "role": "Administrateur"
+  },
+  {
+    "id": 37,
+    "username": "alexpetit",
+    "firstName": "Alex",
+    "lastName": "Petit",
+    "birthDate": "1993-06-17",
+    "phone": "+33 3 45 67 89 89",
+    "email": "alex.petit@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Bourgogne-Franche-Comté",
+      "city": "Dijon",
+      "street": "28 Rue des Godrans",
+      "postalCode": "21000"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 38,
+    "username": "marionleroy",
+    "firstName": "Marion",
+    "lastName": "Leroy",
+    "birthDate": "1994-04-05",
+    "phone": "+33 1 45 67 89 90",
+    "email": "marion.leroy@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Île-de-France",
+      "city": "Levallois-Perret",
+      "street": "9 Boulevard du Général Leclerc",
+      "postalCode": "92300"
+    },
+    "role": "Modérateur"
+  },
+  {
+    "id": 39,
+    "username": "sophiemartin",
+    "firstName": "Sophie",
+    "lastName": "Martin",
+    "birthDate": "1989-07-19",
+    "phone": "+33 4 56 78 90 67",
+    "email": "sophie.martin@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Provence-Alpes-Côte d'Azur",
+      "city": "Toulon",
+      "street": "44 Rue du Général de Gaulle",
+      "postalCode": "83000"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 40,
+    "username": "andrechretien",
+    "firstName": "André",
+    "lastName": "Chretien",
+    "birthDate": "1990-05-20",
+    "phone": "+33 1 67 89 01 23",
+    "email": "andre.chretien@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Île-de-France",
+      "city": "Boulogne-Billancourt",
+      "street": "50 Rue des Michel-Ange",
+      "postalCode": "92100"
+    },
+    "role": "Administrateur"
+  },
+  {
+    "id": 41,
+    "username": "martineboucher",
+    "firstName": "Martine",
+    "lastName": "Boucher",
+    "birthDate": "1987-02-15",
+    "phone": "+33 2 45 67 89 78",
+    "email": "martine.boucher@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Normandie",
+      "city": "Caen",
+      "street": "16 Rue de la Gare",
+      "postalCode": "14000"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 42,
+    "username": "jeanlucdubois",
+    "firstName": "Jean-Luc",
+    "lastName": "Dubois",
+    "birthDate": "1985-03-30",
+    "phone": "+33 1 56 78 90 23",
+    "email": "jeanluc.dubois@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Île-de-France",
+      "city": "Saint-Germain-en-Laye",
+      "street": "66 Rue de la République",
+      "postalCode": "78100"
+    },
+    "role": "Modérateur"
+  },
+  {
+    "id": 43,
+    "username": "laurafournier",
+    "firstName": "Laura",
+    "lastName": "Fournier",
+    "birthDate": "1996-06-21",
+    "phone": "+33 3 78 90 12 56",
+    "email": "laura.fournier@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Bourgogne-Franche-Comté",
+      "city": "Auxerre",
+      "street": "19 Rue de Paris",
+      "postalCode": "89000"
+    },
+    "role": "Administrateur"
+  },
+  {
+    "id": 44,
+    "username": "philippeperrin",
+    "firstName": "Philippe",
+    "lastName": "Perrin",
+    "birthDate": "1984-09-10",
+    "phone": "+33 1 78 90 12 45",
+    "email": "philippe.perrin@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Île-de-France",
+      "city": "Versailles",
+      "street": "14 Avenue de Paris",
+      "postalCode": "78000"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 45,
+    "username": "nathaliebeguin",
+    "firstName": "Nathalie",
+    "lastName": "Béguin",
+    "birthDate": "1991-07-23",
+    "phone": "+33 4 67 89 01 34",
+    "email": "nathalie.beguin@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Provence-Alpes-Côte d'Azur",
+      "city": "Avignon",
+      "street": "5 Rue des Lices",
+      "postalCode": "84000"
+    },
+    "role": "Modérateur"
+  },
+  {
+    "id": 46,
+    "username": "xavierjoseph",
+    "firstName": "Xavier",
+    "lastName": "Joseph",
+    "birthDate": "1988-12-05",
+    "phone": "+33 2 67 89 01 23",
+    "email": "xavier.joseph@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Normandie",
+      "city": "Le Havre",
+      "street": "4 Rue du Soleil",
+      "postalCode": "76600"
+    },
+    "role": "Administrateur"
+  },
+  {
+    "id": 47,
+    "username": "sandraguilbert",
+    "firstName": "Sandra",
+    "lastName": "Guilbert",
+    "birthDate": "1992-11-30",
+    "phone": "+33 1 23 45 67 90",
+    "email": "sandra.guilbert@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Île-de-France",
+      "city": "Créteil",
+      "street": "7 Rue de la Glacière",
+      "postalCode": "94000"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 48,
+    "username": "marcdaudet",
+    "firstName": "Marc",
+    "lastName": "Daudet",
+    "birthDate": "1989-04-14",
+    "phone": "+33 4 34 56 78 90",
+    "email": "marc.daudet@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Provence-Alpes-Côte d'Azur",
+      "city": "Salon-de-Provence",
+      "street": "33 Rue du Général Leclerc",
+      "postalCode": "13300"
+    },
+    "role": "Modérateur"
+  },
+  {
+    "id": 49,
+    "username": "fannydelacroix",
+    "firstName": "Fanny",
+    "lastName": "Delacroix",
+    "birthDate": "1995-03-17",
+    "phone": "+33 5 12 34 56 78",
+    "email": "fanny.delacroix@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Occitanie",
+      "city": "Nîmes",
+      "street": "11 Boulevard Jean-Jaurès",
+      "postalCode": "30000"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 50,
+    "username": "laurentbriand",
+    "firstName": "Laurent",
+    "lastName": "Briand",
+    "birthDate": "1982-09-25",
+    "phone": "+33 3 45 67 89 12",
+    "email": "laurent.briand@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Auvergne-Rhône-Alpes",
+      "city": "Clermont-Ferrand",
+      "street": "21 Avenue des États-Unis",
+      "postalCode": "63000"
+    },
+    "role": "Administrateur"
+  },
+  {
+    "id": 51,
+    "username": "isabellecharpentier",
+    "firstName": "Isabelle",
+    "lastName": "Charpentier",
+    "birthDate": "1984-07-30",
+    "phone": "+33 2 45 67 89 90",
+    "email": "isabelle.charpentier@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Normandie",
+      "city": "Rouen",
+      "street": "29 Boulevard de l'Yser",
+      "postalCode": "76000"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 52,
+    "username": "jeanphilippeblanc",
+    "firstName": "Jean-Philippe",
+    "lastName": "Blanc",
+    "birthDate": "1990-08-16",
+    "phone": "+33 5 67 89 01 23",
+    "email": "jeanphilippe.blanc@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Occitanie",
+      "city": "Montpellier",
+      "street": "9 Rue des Arts",
+      "postalCode": "34000"
+    },
+    "role": "Modérateur"
+  },
+  {
+    "id": 53,
+    "username": "eliseferrand",
+    "firstName": "Elise",
+    "lastName": "Ferrand",
+    "birthDate": "1997-10-05",
+    "phone": "+33 6 23 45 67 12",
+    "email": "elise.ferrand@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Provence-Alpes-Côte d'Azur",
+      "city": "Aix-en-Provence",
+      "street": "18 Avenue Victor Hugo",
+      "postalCode": "13100"
+    },
+    "role": "Administrateur"
+  },
+  {
+    "id": 54,
+    "username": "clementrenaud",
+    "firstName": "Clément",
+    "lastName": "Renaud",
+    "birthDate": "1993-06-07",
+    "phone": "+33 1 56 78 90 12",
+    "email": "clement.renaud@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Île-de-France",
+      "city": "Argenteuil",
+      "street": "41 Boulevard du Général Leclerc",
+      "postalCode": "95100"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 55,
+    "username": "chloelegendre",
+    "firstName": "Chloé",
+    "lastName": "Legendre",
+    "birthDate": "1996-04-12",
+    "phone": "+33 3 45 67 89 90",
+    "email": "chloe.legendre@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Bourgogne-Franche-Comté",
+      "city": "Chalon-sur-Saône",
+      "street": "22 Rue de la Charité",
+      "postalCode": "71100"
+    },
+    "role": "Modérateur"
+  },
+  {
+    "id": 56,
+    "username": "marcbrunet",
+    "firstName": "Marc",
+    "lastName": "Brunet",
+    "birthDate": "1988-02-22",
+    "phone": "+33 4 78 90 12 56",
+    "email": "marc.brunet@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Occitanie",
+      "city": "Carcassonne",
+      "street": "6 Rue de la République",
+      "postalCode": "11000"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 57,
+    "username": "corinnehebert",
+    "firstName": "Corinne",
+    "lastName": "Hébert",
+    "birthDate": "1985-12-12",
+    "phone": "+33 2 56 78 90 34",
+    "email": "corinne.hebert@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Auvergne-Rhône-Alpes",
+      "city": "Vichy",
+      "street": "30 Avenue de la Gare",
+      "postalCode": "03200"
+    },
+    "role": "Administrateur"
+  },
+  {
+    "id": 58,
+    "username": "olivierpoirier",
+    "firstName": "Olivier",
+    "lastName": "Poirier",
+    "birthDate": "1991-03-27",
+    "phone": "+33 4 56 78 90 23",
+    "email": "olivier.poirier@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Provence-Alpes-Côte d'Azur",
+      "city": "Toulon",
+      "street": "55 Rue de la Liberté",
+      "postalCode": "83000"
+    },
+    "role": "Modérateur"
+  },
+  {
+    "id": 59,
+    "username": "laurencefournier",
+    "firstName": "Laurence",
+    "lastName": "Fournier",
+    "birthDate": "1996-08-22",
+    "phone": "+33 3 12 34 56 78",
+    "email": "laurence.fournier@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Hauts-de-France",
+      "city": "Boulogne-sur-Mer",
+      "street": "8 Rue de la Mer",
+      "postalCode": "62200"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 60,
+    "username": "philippejean",
+    "firstName": "Philippe",
+    "lastName": "Jean",
+    "birthDate": "1994-11-11",
+    "phone": "+33 6 78 90 12 45",
+    "email": "philippe.jean@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Île-de-France",
+      "city": "Montreuil",
+      "street": "16 Boulevard de la Solidarité",
+      "postalCode": "93100"
+    },
+    "role": "Administrateur"
+  },
+  {
+    "id": 61,
+    "username": "valeriebousquet",
+    "firstName": "Valérie",
+    "lastName": "Bousquet",
+    "birthDate": "1991-06-15",
+    "phone": "+33 5 12 34 56 90",
+    "email": "valerie.bousquet@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Occitanie",
+      "city": "Nîmes",
+      "street": "17 Rue du Palais",
+      "postalCode": "30000"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 62,
+    "username": "pierrecollin",
+    "firstName": "Pierre",
+    "lastName": "Collin",
+    "birthDate": "1986-10-03",
+    "phone": "+33 3 78 90 12 34",
+    "email": "pierre.collin@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Grand Est",
+      "city": "Strasbourg",
+      "street": "9 Rue de la Liberté",
+      "postalCode": "67000"
+    },
+    "role": "Modérateur"
+  },
+  {
+    "id": 63,
+    "username": "solangebernard",
+    "firstName": "Solange",
+    "lastName": "Bernard",
+    "birthDate": "1987-04-07",
+    "phone": "+33 2 34 56 78 90",
+    "email": "solange.bernard@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Normandie",
+      "city": "Évreux",
+      "street": "14 Rue de la Gare",
+      "postalCode": "27000"
+    },
+    "role": "Administrateur"
+  },
+  {
+    "id": 64,
+    "username": "jeanmarcfaure",
+    "firstName": "Jean-Marc",
+    "lastName": "Faure",
+    "birthDate": "1992-09-28",
+    "phone": "+33 1 67 89 01 56",
+    "email": "jeanmarc.faure@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Île-de-France",
+      "city": "Sarcelles",
+      "street": "12 Boulevard de la République",
+      "postalCode": "95200"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 65,
+    "username": "marieboissier",
+    "firstName": "Marie",
+    "lastName": "Boissier",
+    "birthDate": "1988-07-20",
+    "phone": "+33 5 78 90 12 34",
+    "email": "marie.boissier@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Auvergne-Rhône-Alpes",
+      "city": "Valence",
+      "street": "27 Rue des Jardins",
+      "postalCode": "26000"
+    },
+    "role": "Modérateur"
+  },
+  {
+    "id": 66,
+    "username": "alainvasseur",
+    "firstName": "Alain",
+    "lastName": "Vasseur",
+    "birthDate": "1985-01-10",
+    "phone": "+33 4 34 56 78 56",
+    "email": "alain.vasseur@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Provence-Alpes-Côte d'Azur",
+      "city": "Marseille",
+      "street": "8 Boulevard Longchamp",
+      "postalCode": "13001"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 67,
+    "username": "catherinelagrange",
+    "firstName": "Catherine",
+    "lastName": "Lagrange",
+    "birthDate": "1994-05-11",
+    "phone": "+33 3 56 78 90 12",
+    "email": "catherine.lagrange@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Bourgogne-Franche-Comté",
+      "city": "Nevers",
+      "street": "7 Rue de l'Église",
+      "postalCode": "58000"
+    },
+    "role": "Administrateur"
+  },
+  {
+    "id": 68,
+    "username": "antoinegilbert",
+    "firstName": "Antoine",
+    "lastName": "Gilbert",
+    "birthDate": "1990-06-13",
+    "phone": "+33 4 12 34 56 78",
+    "email": "antoine.gilbert@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Occitanie",
+      "city": "Perpignan",
+      "street": "22 Rue des Pyrénées",
+      "postalCode": "66000"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 69,
+    "username": "nathalieproulx",
+    "firstName": "Nathalie",
+    "lastName": "Proulx",
+    "birthDate": "1989-02-25",
+    "phone": "+33 2 12 34 56 78",
+    "email": "nathalie.proulx@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Normandie",
+      "city": "Caen",
+      "street": "19 Rue des Tilleuls",
+      "postalCode": "14000"
+    },
+    "role": "Modérateur"
+  },
+  {
+    "id": 70,
+    "username": "hugofernandez",
+    "firstName": "Hugo",
+    "lastName": "Fernandez",
+    "birthDate": "1996-12-30",
+    "phone": "+33 1 67 89 01 23",
+    "email": "hugo.fernandez@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Île-de-France",
+      "city": "Versailles",
+      "street": "50 Avenue de Saint-Cloud",
+      "postalCode": "78000"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 71,
+    "username": "isabellecharpentier",
+    "firstName": "Isabelle",
+    "lastName": "Charpentier",
+    "birthDate": "1984-09-14",
+    "phone": "+33 5 67 89 01 23",
+    "email": "isabelle.charpentier@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Nouvelle-Aquitaine",
+      "city": "La Rochelle",
+      "street": "4 Quai Louis Prunier",
+      "postalCode": "17000"
+    },
+    "role": "Administrateur"
+  },
+  {
+    "id": 72,
+    "username": "gabriellemeyer",
+    "firstName": "Gabrielle",
+    "lastName": "Meyer",
+    "birthDate": "1992-04-20",
+    "phone": "+33 6 12 34 56 78",
+    "email": "gabrielle.meyer@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Grand Est",
+      "city": "Reims",
+      "street": "23 Avenue de Champagne",
+      "postalCode": "51100"
+    },
+    "role": "Modérateur"
+  },
+  {
+    "id": 73,
+    "username": "jeanlouisrougeot",
+    "firstName": "Jean-Louis",
+    "lastName": "Rougeot",
+    "birthDate": "1987-03-13",
+    "phone": "+33 2 78 90 12 34",
+    "email": "jeanlouis.rougeot@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Auvergne-Rhône-Alpes",
+      "city": "Saint-Étienne",
+      "street": "11 Rue de la République",
+      "postalCode": "42000"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 74,
+    "username": "sandrineleclerc",
+    "firstName": "Sandrine",
+    "lastName": "Leclerc",
+    "birthDate": "1991-11-30",
+    "phone": "+33 4 56 78 90 12",
+    "email": "sandrine.leclerc@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Provence-Alpes-Côte d'Azur",
+      "city": "Aix-en-Provence",
+      "street": "7 Rue de l'Opéra",
+      "postalCode": "13100"
+    },
+    "role": "Administrateur"
+  },
+  {
+    "id": 75,
+    "username": "antoineferrand",
+    "firstName": "Antoine",
+    "lastName": "Ferrand",
+    "birthDate": "1989-07-19",
+    "phone": "+33 3 45 67 89 12",
+    "email": "antoine.ferrand@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Hauts-de-France",
+      "city": "Arras",
+      "street": "12 Rue des Écoles",
+      "postalCode": "62000"
+    },
+    "role": "Modérateur"
+  },
+  {
+    "id": 76,
+    "username": "marinelopez",
+    "firstName": "Marine",
+    "lastName": "Lopez",
+    "birthDate": "1995-06-18",
+    "phone": "+33 5 34 56 78 90",
+    "email": "marine.lopez@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Occitanie",
+      "city": "Montpellier",
+      "street": "33 Rue des Martyrs",
+      "postalCode": "34000"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 77,
+    "username": "matthieulafont",
+    "firstName": "Matthieu",
+    "lastName": "Lafont",
+    "birthDate": "1982-12-07",
+    "phone": "+33 6 78 90 12 34",
+    "email": "matthieu.lafont@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Île-de-France",
+      "city": "Pontoise",
+      "street": "25 Rue de la Gare",
+      "postalCode": "95300"
+    },
+    "role": "Modérateur"
+  },
+  {
+    "id": 78,
+    "username": "veroniqueclement",
+    "firstName": "Véronique",
+    "lastName": "Clément",
+    "birthDate": "1986-05-25",
+    "phone": "+33 1 67 89 01 23",
+    "email": "veronique.clement@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Île-de-France",
+      "city": "Saint-Denis",
+      "street": "44 Boulevard de la République",
+      "postalCode": "93200"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 79,
+    "username": "elodiechretien",
+    "firstName": "Élodie",
+    "lastName": "Chretien",
+    "birthDate": "1990-08-14",
+    "phone": "+33 2 56 78 90 12",
+    "email": "elodie.chretien@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Bourgogne-Franche-Comté",
+      "city": "Auxerre",
+      "street": "58 Rue de la Gare",
+      "postalCode": "89000"
+    },
+    "role": "Administrateur"
+  },
+  {
+    "id": 80,
+    "username": "alexandregirard",
+    "firstName": "Alexandre",
+    "lastName": "Girard",
+    "birthDate": "1984-02-16",
+    "phone": "+33 4 67 89 01 23",
+    "email": "alexandre.girard@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Provence-Alpes-Côte d'Azur",
+      "city": "Hyères",
+      "street": "12 Boulevard des Anglais",
+      "postalCode": "83400"
+    },
+    "role": "Modérateur"
+  },
+  {
+    "id": 81,
+    "username": "fabiendufour",
+    "firstName": "Fabien",
+    "lastName": "Dufour",
+    "birthDate": "1983-11-05",
+    "phone": "+33 6 23 45 67 89",
+    "email": "fabien.dufour@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Auvergne-Rhône-Alpes",
+      "city": "Grenoble",
+      "street": "9 Rue de la Croix",
+      "postalCode": "38000"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 82,
+    "username": "martinemarchand",
+    "firstName": "Martine",
+    "lastName": "Marchand",
+    "birthDate": "1995-07-14",
+    "phone": "+33 5 67 89 01 23",
+    "email": "martine.marchand@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Occitanie",
+      "city": "Albi",
+      "street": "5 Rue des Arènes",
+      "postalCode": "81000"
+    },
+    "role": "Administrateur"
+  },
+  {
+    "id": 83,
+    "username": "gastonbastien",
+    "firstName": "Gaston",
+    "lastName": "Bastien",
+    "birthDate": "1988-03-28",
+    "phone": "+33 1 23 45 67 89",
+    "email": "gaston.bastien@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Île-de-France",
+      "city": "Melun",
+      "street": "76 Avenue du Général Leclerc",
+      "postalCode": "77000"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 84,
+    "username": "amandinepetit",
+    "firstName": "Amandine",
+    "lastName": "Petit",
+    "birthDate": "1992-05-22",
+    "phone": "+33 6 34 56 78 90",
+    "email": "amandine.petit@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Hauts-de-France",
+      "city": "Lille",
+      "street": "30 Rue du Bourg",
+      "postalCode": "59000"
+    },
+    "role": "Modérateur"
+  },
+  {
+    "id": 85,
+    "username": "lucaslaroche",
+    "firstName": "Lucas",
+    "lastName": "Laroche",
+    "birthDate": "1990-06-19",
+    "phone": "+33 4 23 45 67 89",
+    "email": "lucas.laroche@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Provence-Alpes-Côte d'Azur",
+      "city": "Toulon",
+      "street": "11 Rue des Héros",
+      "postalCode": "83000"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 86,
+    "username": "mariechristine",
+    "firstName": "Marie",
+    "lastName": "Christine",
+    "birthDate": "1984-10-02",
+    "phone": "+33 5 12 34 56 78",
+    "email": "marie.christine@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Auvergne-Rhône-Alpes",
+      "city": "Valence",
+      "street": "65 Rue des Alpes",
+      "postalCode": "26000"
+    },
+    "role": "Administrateur"
+  },
+  {
+    "id": 87,
+    "username": "remyguillon",
+    "firstName": "Rémy",
+    "lastName": "Guillon",
+    "birthDate": "1987-01-16",
+    "phone": "+33 2 34 56 78 90",
+    "email": "remy.guillon@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Hauts-de-France",
+      "city": "Douai",
+      "street": "48 Rue des Flandres",
+      "postalCode": "59500"
+    },
+    "role": "Modérateur"
+  },
+  {
+    "id": 88,
+    "username": "celinemarcel",
+    "firstName": "Céline",
+    "lastName": "Marcel",
+    "birthDate": "1991-11-15",
+    "phone": "+33 6 45 67 89 01",
+    "email": "celine.marcel@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Occitanie",
+      "city": "Mende",
+      "street": "85 Rue du Docteur Roux",
+      "postalCode": "48000"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 89,
+    "username": "maximelaporte",
+    "firstName": "Maxime",
+    "lastName": "Laporte",
+    "birthDate": "1986-04-12",
+    "phone": "+33 1 34 56 78 90",
+    "email": "maxime.laporte@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Île-de-France",
+      "city": "Évry",
+      "street": "9 Boulevard de l'Indépendance",
+      "postalCode": "91000"
+    },
+    "role": "Modérateur"
+  },
+  {
+    "id": 90,
+    "username": "clairecosta",
+    "firstName": "Claire",
+    "lastName": "Costa",
+    "birthDate": "1985-09-09",
+    "phone": "+33 2 45 67 89 01",
+    "email": "claire.costa@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Normandie",
+      "city": "Le Havre",
+      "street": "31 Rue des Docks",
+      "postalCode": "76600"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 91,
+    "username": "ludivinetardif",
+    "firstName": "Ludivine",
+    "lastName": "Tardif",
+    "birthDate": "1993-06-04",
+    "phone": "+33 5 67 89 01 23",
+    "email": "ludivine.tardif@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Bourgogne-Franche-Comté",
+      "city": "Chalon-sur-Saône",
+      "street": "19 Rue de la Liberté",
+      "postalCode": "71100"
+    },
+    "role": "Administrateur"
+  },
+  {
+    "id": 92,
+    "username": "alexclement",
+    "firstName": "Alex",
+    "lastName": "Clément",
+    "birthDate": "1994-03-28",
+    "phone": "+33 6 78 90 12 34",
+    "email": "alex.clement@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Auvergne-Rhône-Alpes",
+      "city": "Annecy",
+      "street": "22 Rue des Alpes",
+      "postalCode": "74000"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 93,
+    "username": "josephrougeot",
+    "firstName": "Joseph",
+    "lastName": "Rougeot",
+    "birthDate": "1988-12-23",
+    "phone": "+33 4 23 45 67 89",
+    "email": "joseph.rougeot@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Île-de-France",
+      "city": "Versailles",
+      "street": "40 Rue des Ormes",
+      "postalCode": "78000"
+    },
+    "role": "Modérateur"
+  },
+  {
+    "id": 94,
+    "username": "laurenceleclerc",
+    "firstName": "Laurence",
+    "lastName": "Leclerc",
+    "birthDate": "1990-04-08",
+    "phone": "+33 1 78 90 12 34",
+    "email": "laurence.leclerc@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Provence-Alpes-Côte d'Azur",
+      "city": "Aix-en-Provence",
+      "street": "9 Rue du Lycée",
+      "postalCode": "13100"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 95,
+    "username": "gabrielduval",
+    "firstName": "Gabriel",
+    "lastName": "Duval",
+    "birthDate": "1985-11-29",
+    "phone": "+33 6 56 78 90 12",
+    "email": "gabriel.duval@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Bourgogne-Franche-Comté",
+      "city": "Dijon",
+      "street": "15 Rue du Parc",
+      "postalCode": "21000"
+    },
+    "role": "Administrateur"
+  },
+  {
+    "id": 96,
+    "username": "lilianechevalier",
+    "firstName": "Liliane",
+    "lastName": "Chevalier",
+    "birthDate": "1993-10-10",
+    "phone": "+33 5 12 34 56 78",
+    "email": "liliane.chevalier@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Occitanie",
+      "city": "Narbonne",
+      "street": "25 Rue des Anémones",
+      "postalCode": "11100"
+    },
+    "role": "Modérateur"
+  },
+  {
+    "id": 97,
+    "username": "alainperrin",
+    "firstName": "Alain",
+    "lastName": "Perrin",
+    "birthDate": "1982-06-15",
+    "phone": "+33 4 78 90 12 34",
+    "email": "alain.perrin@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Auvergne-Rhône-Alpes",
+      "city": "Roanne",
+      "street": "7 Rue de la Gare",
+      "postalCode": "42300"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 98,
+    "username": "carolinebrun",
+    "firstName": "Caroline",
+    "lastName": "Brun",
+    "birthDate": "1994-12-05",
+    "phone": "+33 6 23 45 67 89",
+    "email": "caroline.brun@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Normandie",
+      "city": "Dieppe",
+      "street": "28 Rue de la Mer",
+      "postalCode": "76200"
+    },
+    "role": "Modérateur"
+  },
+  {
+    "id": 99,
+    "username": "pascaljean",
+    "firstName": "Pascal",
+    "lastName": "Jean",
+    "birthDate": "1987-01-29",
+    "phone": "+33 3 45 67 89 01",
+    "email": "pascal.jean@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Île-de-France",
+      "city": "Boulogne-Billancourt",
+      "street": "66 Rue de la Solidarité",
+      "postalCode": "92100"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 100,
+    "username": "camillefaucher",
+    "firstName": "Camille",
+    "lastName": "Faucher",
+    "birthDate": "1988-07-08",
+    "phone": "+33 1 45 67 89 12",
+    "email": "camille.faucher@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Provence-Alpes-Côte d'Azur",
+      "city": "Nice",
+      "street": "13 Boulevard du Soleil",
+      "postalCode": "06000"
+    },
+    "role": "Administrateur"
+  }
+]
