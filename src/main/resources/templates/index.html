@@ -43,7 +43,7 @@
     </nav>
     <div class="title">
       <h1>DummyData API</h1>
-      <!-- <p>Instant Mock Data for Developers</p> -->
+      <p>Instant Mock Data for Developers</p>
     </div>
 
     <div class="languageSelector">
@@ -86,14 +86,20 @@
         <h2 th:text="#{label.about.title}"></h2>
         <p th:text="#{label.about.text}"></p>
       </section>
+
       <section id="try">
         <h2 th:text="#{label.try.title}"></h2>
         <p th:text="#{label.try.text}"></p>
         <div class="code-snippet">
-          fetch(<span class="url">'https://dummydata.onrender.com/api/users/1'</span>)<br>
-          .then(response => response.json())<br>
-          .then(json => console.log(json))
+          <code>
+            fetch(<span>'https://dummydata.onrender.com/api/users/1'</span>) <br>
+            .then(response => response.json()) <br>
+            .then(json => console.log(json))
+          </code>
         </div>
+        <button onclick="userData()" class="fetchDataButton">Fetch Data</button>
+        <div class="fetchResult">{}</div>
+
       </section>
       <section id="why">
         <h2 th:text="#{label.why.title}"></h2>
@@ -198,7 +204,16 @@
       const menuBurger = document.querySelector(".menuMobile")
       menuBurger.classList.toggle("openCloseMenu")
     }
+
+    const userData = async () => {
+      const res = await fetch('http://localhost:8080/api/users/1');
+      const data = await res.json();
+      const fetchDisplayData = document.querySelector(".fetchResult")
+      fetchDisplayData.innerHTML = `<code>${JSON.stringify(data, null, 2)}</code>`;
+      return
+    }
   </script>
+
 </body>
 
 </html>
