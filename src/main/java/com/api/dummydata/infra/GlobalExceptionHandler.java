@@ -47,11 +47,11 @@ public class GlobalExceptionHandler {
     return new ResponseEntity<>(response, HttpStatus.NOT_FOUND);
   }
 
-  // @ExceptionHandler(CommentAmmountNotSupportedException.class)
-  // public ResponseEntity<Object> handleIsCommentQuantitySupported(CommentAmmountNotSupportedException ex){
-  //   List<String> response = new ArrayList<>();
-  //   response.add(0, ex.getMessage());
-  //   return new ResponseEntity<>(response, HttpStatus.BAD_REQUEST);
-  // }
+  @ExceptionHandler(CommentAmmountNotSupportedException.class)
+  public ResponseEntity<Object> handleIsCommentQuantitySupported(CommentAmmountNotSupportedException ex){
+    List<String> response = new ArrayList<>();
+    response.add(0, ex.getMessage());
+    return new ResponseEntity<>(response, HttpStatus.BAD_REQUEST);
+  }
 
 }
