@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "username": "johndoe",
-    "firstName": "John",
-    "lastName": "Doe",
+    "username": "markbradley",
+    "firstName": "Mark",
+    "lastName": "Bradley",
     "birthDate": "1995-05-15",
     "phone": "+1 202 555 1234",
-    "email": "john.doe@example.com",
+    "email": "mark.bradley@example.com",
     "address": {
       "country": "United States of America",
       "state": "California",
@@ -18,12 +18,12 @@
   },
   {
     "id": 2,
-    "username": "janedoe",
+    "username": "janefoster",
     "firstName": "Jane",
-    "lastName": "Doe",
+    "lastName": "Foster",
     "birthDate": "1991-08-22",
     "phone": "+1 305 555 5678",
-    "email": "jane.doe@example.com",
+    "email": "jane.foster@example.com",
     "address": {
       "country": "United States of America",
       "state": "Florida",
