@@ -10,7 +10,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.io.IOException;
 import java.util.List;
 
 @RestController
@@ -29,8 +28,7 @@ public class CommentController {
   @GetMapping("/{id}")
   public ResponseEntity<Comment> getCommentById(
     @PathVariable String id,
-    @RequestParam(defaultValue = "en") String lang,
-    Pageable pageable) throws IOException {
+    @RequestParam(defaultValue = "en") String lang) {
     return ResponseEntity.status(HttpStatus.OK).body(commentService.getCommentById(lang, id));
   }
 }

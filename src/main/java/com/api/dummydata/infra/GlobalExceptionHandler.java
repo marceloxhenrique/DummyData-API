@@ -12,6 +12,8 @@ import com.api.dummydata.exceptions.LanguageNotSupportedException;
 import com.api.dummydata.exceptions.UserNotFoundException;
 import com.api.dummydata.exceptions.CommentAmmountNotSupportedException;
 import com.api.dummydata.exceptions.CommentNotFoundException;
+import com.api.dummydata.exceptions.ImageAmountNotSupportedException;
+import com.api.dummydata.exceptions.ImageNotFoundException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 @ControllerAdvice
@@ -19,39 +21,51 @@ public class GlobalExceptionHandler {
   @Autowired
   ObjectMapper objectMapper;
 
-  @ExceptionHandler(UsersAmmountNotSupportedException.class)
-  public ResponseEntity<Object> handleIsUserQuantitySupported(UsersAmmountNotSupportedException ex){
+    @ExceptionHandler(LanguageNotSupportedException.class)
+  public ResponseEntity<Object> handleIsLanguageSupported(LanguageNotSupportedException e){
     List<String> response = new ArrayList<>();
-    response.add(0, ex.getMessage());
-    return new ResponseEntity<>(response, HttpStatus.BAD_REQUEST);
-  }
-
-  @ExceptionHandler(LanguageNotSupportedException.class)
-  public ResponseEntity<Object> handleIsLanguageSupported(LanguageNotSupportedException ex){
-    List<String> response = new ArrayList<>();
-    response.add(0, ex.getMessage());
+    response.add(0, e.getMessage());
     return new ResponseEntity<>(response, HttpStatus.NOT_FOUND);
   }
 
-  @ExceptionHandler(UserNotFoundException.class)
-  public ResponseEntity<Object> handleUserNotFoundException(UserNotFoundException ex){
+  @ExceptionHandler(UsersAmmountNotSupportedException.class)
+  public ResponseEntity<Object> handleIsUserQuantitySupported(UsersAmmountNotSupportedException e){
     List<String> response = new ArrayList<>();
-    response.add(0, ex.getMessage());
+    response.add(0, e.getMessage());
+    return new ResponseEntity<>(response, HttpStatus.BAD_REQUEST);
+  }
+
+  @ExceptionHandler(UserNotFoundException.class)
+  public ResponseEntity<Object> handleUserNotFoundException(UserNotFoundException e){
+    List<String> response = new ArrayList<>();
+    response.add(0, e.getMessage());
     return new ResponseEntity<>(response, HttpStatus.NOT_FOUND);
   }
   
   @ExceptionHandler(CommentNotFoundException.class)
-  public ResponseEntity<Object> commentNotFoundException(CommentNotFoundException ex){
+  public ResponseEntity<Object> handleCommentNotFoundException(CommentNotFoundException e){
     List<String> response = new ArrayList<>();
-    response.add(0, ex.getMessage());
+    response.add(0, e.getMessage());
     return new ResponseEntity<>(response, HttpStatus.NOT_FOUND);
   }
 
   @ExceptionHandler(CommentAmmountNotSupportedException.class)
-  public ResponseEntity<Object> handleIsCommentQuantitySupported(CommentAmmountNotSupportedException ex){
+  public ResponseEntity<Object> handleIsCommentQuantitySupported(CommentAmmountNotSupportedException e){
     List<String> response = new ArrayList<>();
-    response.add(0, ex.getMessage());
+    response.add(0, e.getMessage());
     return new ResponseEntity<>(response, HttpStatus.BAD_REQUEST);
   }
 
+  @ExceptionHandler(ImageNotFoundException.class)
+  public ResponseEntity<Object> handleIsImageNotFoundException(ImageNotFoundException e){
+    List<String> response = new ArrayList<>();
+    response.add(0, e.getMessage());
+    return new ResponseEntity<>(response, HttpStatus.NOT_FOUND);
+  }
+  @ExceptionHandler(ImageAmountNotSupportedException.class)
+  public ResponseEntity<Object> handleIsImageAmmountquantitySupported(ImageAmountNotSupportedException e){
+    List<String> response = new ArrayList<>();
+    response.add(0, e.getMessage());
+    return new ResponseEntity<>(response, HttpStatus.BAD_REQUEST);
+  }
 }

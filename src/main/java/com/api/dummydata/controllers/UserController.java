@@ -27,8 +27,7 @@ public class UserController {
   @GetMapping("/{id}")
   public ResponseEntity<User> getUserById(
     @PathVariable String id,
-    @RequestParam(defaultValue = "en") String lang,
-    Pageable pageable) {
+    @RequestParam(defaultValue = "en") String lang) {
     return ResponseEntity.status(HttpStatus.OK).body(userService.getUserById(lang, id));
   }
 }
