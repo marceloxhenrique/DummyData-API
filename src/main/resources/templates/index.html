@@ -124,7 +124,7 @@
             <a href="/api/images">
               <strong>/images</strong>
             </a>
-            <p th:text="#{label.available.resources.text2}"></p>
+            <p th:text="#{label.available.resources.text3}"></p>
           </li>
         </ul>
       </section>
@@ -139,6 +139,22 @@
           <li>
             <a href="/api/users/1">
               <strong>GET</strong> /users/1
+            </a>
+          </li>
+
+          <li>
+            <a href="/api/users?size=3">
+              <strong>GET</strong> /users?size=3
+            </a>
+          </li>
+          <li>
+            <a href="/api/users?lang=fr">
+              <strong>GET</strong> /users?lang=fr
+            </a>
+          </li>
+          <li>
+            <a href="/api/users?lang=fr&size=3">
+              <strong>GET</strong> /api/users?lang=fr&size=3
             </a>
           </li>
           <br>

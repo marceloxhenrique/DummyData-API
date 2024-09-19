@@ -2,6 +2,7 @@ package com.api.dummydata.controllers;
 
 import com.api.dummydata.models.User;
 import com.api.dummydata.services.UserService;
+
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,7 +23,7 @@ public class UserController {
     @RequestParam(defaultValue = "en") String lang,
     @PageableDefault(size = 100, sort = "id", direction = Sort.Direction.ASC)
     Pageable pageable) {
-    return ResponseEntity.status(HttpStatus.OK).body(userService.getUsers(lang, pageable)); 
+    return ResponseEntity.status(HttpStatus.OK).body(userService.getAllUsers(lang, pageable));
   }
   @GetMapping("/{id}")
   public ResponseEntity<User> getUserById(

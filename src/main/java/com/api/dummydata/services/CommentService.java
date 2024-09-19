@@ -11,8 +11,8 @@ import com.api.dummydata.exceptions.CommentAmmountNotSupportedException;
 import com.api.dummydata.exceptions.CommentNotFoundException;
 import com.api.dummydata.exceptions.LanguageNotSupportedException;
 import com.api.dummydata.models.Comment;
-import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.Arrays;
 import java.util.List;
 
@@ -38,8 +38,8 @@ public class CommentService {
     if(!IsQuantityCommentSupported(commentQuantity)) throw new CommentAmmountNotSupportedException();
     try {
       Resource resource = resourceLoader.getResource("classpath:commentData/comment_" + lang + ".json");
-      File file = resource.getFile();
-      List<Comment> comments = Arrays.asList(objectMapper.readValue(file, Comment[].class));
+      InputStream inputStream = resource.getInputStream();
+      List<Comment> comments = Arrays.asList(objectMapper.readValue(inputStream, Comment[].class));
       return comments.stream()
         .limit(commentQuantity)
         .toList();
@@ -52,8 +52,8 @@ public class CommentService {
     if(!this.IsLanguageSuported(lang)) throw new LanguageNotSupportedException();
     try {
       Resource resource = resourceLoader.getResource("classpath:commentData/comment_" + lang + ".json");
-      File file = resource.getFile();
-      List<Comment> comments = Arrays.asList(objectMapper.readValue(file, Comment[].class));
+      InputStream inputStream = resource.getInputStream();
+      List<Comment> comments = Arrays.asList(objectMapper.readValue(inputStream, Comment[].class));
       return comments.stream()
         .filter(comment -> Integer.toString(comment.getId()).equals(id))
         .findFirst()
