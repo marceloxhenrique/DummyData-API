@@ -16,20 +16,20 @@ import com.api.dummydata.services.ImageService;
 @RestController
 @RequestMapping("/api/images")
 public class ImageController {
-  @Autowired
-  ImageService imageService;
+    @Autowired
+    ImageService imageService;
 
-  @GetMapping
-  public ResponseEntity<List<Image>> getAllImages(
-    @RequestParam(defaultValue = "en") String lang,
-    @PageableDefault(size = 100, sort = "id", direction = Sort.Direction.ASC)
-    Pageable pageable){
-    return ResponseEntity.status(HttpStatus.OK).body(imageService.getAllImages(lang, pageable));
-  }
-  @GetMapping("{id}")
-  public ResponseEntity<Image> getImagesById(
-    @PathVariable String id,
-    @RequestParam(defaultValue = "en") String lang){
-    return ResponseEntity.status(HttpStatus.OK).body(imageService.getImageById(lang, id));
-  }
+    @GetMapping
+    public ResponseEntity<List<Image>> getAllImages(
+        @RequestParam(defaultValue = "en") String lang,
+        @PageableDefault(size = 100, sort = "id", direction = Sort.Direction.ASC)
+        Pageable pageable){
+        return ResponseEntity.status(HttpStatus.OK).body(imageService.getAllImages(lang, pageable));
+    }
+    @GetMapping("{id}")
+    public ResponseEntity<Image> getImagesById(
+        @PathVariable String id,
+        @RequestParam(defaultValue = "en") String lang){
+        return ResponseEntity.status(HttpStatus.OK).body(imageService.getImageById(lang, id));
+    }
 }

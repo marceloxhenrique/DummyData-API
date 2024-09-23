@@ -15,20 +15,20 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api/users")
 public class UserController {
-  @Autowired
-  UserService userService;
-  
-  @GetMapping
-  public ResponseEntity<List<User>> getAllUsers(
-    @RequestParam(defaultValue = "en") String lang,
-    @PageableDefault(size = 100, sort = "id", direction = Sort.Direction.ASC)
-    Pageable pageable) {
-    return ResponseEntity.status(HttpStatus.OK).body(userService.getAllUsers(lang, pageable));
-  }
-  @GetMapping("/{id}")
-  public ResponseEntity<User> getUserById(
-    @PathVariable String id,
-    @RequestParam(defaultValue = "en") String lang) {
-    return ResponseEntity.status(HttpStatus.OK).body(userService.getUserById(lang, id));
-  }
+    @Autowired
+    UserService userService;
+    
+    @GetMapping
+    public ResponseEntity<List<User>> getAllUsers(
+        @RequestParam(defaultValue = "en") String lang,
+        @PageableDefault(size = 100, sort = "id", direction = Sort.Direction.ASC)
+        Pageable pageable) {
+        return ResponseEntity.status(HttpStatus.OK).body(userService.getAllUsers(lang, pageable));
+    }
+    @GetMapping("/{id}")
+    public ResponseEntity<User> getUserById(
+        @PathVariable String id,
+        @RequestParam(defaultValue = "en") String lang) {
+        return ResponseEntity.status(HttpStatus.OK).body(userService.getUserById(lang, id));
+    }
 }

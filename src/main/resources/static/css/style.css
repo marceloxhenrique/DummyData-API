@@ -135,6 +135,7 @@
 
   .menuMobile ul li:hover {
     background-color: #daecffe5;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.129)
   }
 
   .openCloseMenu {
@@ -176,6 +177,7 @@
 
   .menuDesktop ul li:hover {
     background-color: #daecffe5;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.129)
   }
 
   .wrapper {
@@ -214,6 +216,7 @@
     border-radius: .2em;
     border-left: 5px solid #007BFF;
     background-color: #f4f4f4;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.129)
   }
 
   .code-snippet span {
@@ -229,7 +232,7 @@
     border: .1em solid #007BFF;
     color: #007BFF;
     background-color: white;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.157)
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.129)
   }
 
   .fetchDataButton:hover {
@@ -246,6 +249,7 @@
     word-break: break-all;
     border-left: 5px solid #007BFF;
     background-color: #f4f4f4;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.129)
   }
 
   .resources-list,
