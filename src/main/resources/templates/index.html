@@ -2,232 +2,250 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description"
-    content="DummyData API: Generate instant mock data for developers. Easily test and prototype with users, comments, and images data through a simple API.">
-  <link rel="stylesheet" href="../static/css/style.css" th:href="@{/css/style.css}">
-  <title>DummyData</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="DummyData API: Generate instant mock data for developers. Easily test and prototype with users, comments, and images data through a simple API.">
+    <link rel="stylesheet" href="../static/css/style.css" th:href="@{/css/style.css}">
+    <title>DummyData</title>
 </head>
 
 <body>
-  <header>
-    <button onclick="openMenu()" class="menuBurger">
-      <span id="menu1"> </span>
-      <span id="menu2"> </span>
-      <span id="menu3"> </span>
-    </button>
-    <nav class="menuMobile">
-      <ul>
-        <a href="#about">
-          <li th:text="#{label.about.title}" onclick="openMenu()"></li>
-        </a>
-        <a href="#try">
-          <li th:text="#{label.try.title}" onclick="openMenu()"></li>
-        </a>
-        <a href="#why">
-          <li th:text="#{label.why.title}" onclick="openMenu()"></li>
-        </a>
-        <a href=" #available">
-          <li th:text="#{label.available.resources}" onclick="openMenu()"></li>
-        </a>
-        <a href="#suported">
-          <li th:text="#{label.suported}" onclick="openMenu()"></li>
-        </a>
-        <a href="#features">
-          <li th:text="#{label.features.title}" onclick="openMenu()"></li>
-        </a>
-      </ul>
-      <button onclick="openMenu()">X</button>
-    </nav>
-    <div class="title">
-      <h1>DummyData API</h1>
-      <p>Instant Mock Data for Developers</p>
-    </div>
-
-    <div class="languageSelector">
-      <!-- <label for="language" th:text="#{label.selecte.lang}"> </label> -->
-      <label for="language"> </label>
-      <select id="language" onchange="changeLanguage()">
-        <option th:text="#{label.lang}"></option>
-        <option value="en" th:text="#{label.english}"></option>
-        <option value="fr" th:text="#{label.french}"></option>
-        <option value="pt" th:text="#{label.portuguese}"></option>
-      </select>
-    </div>
-  </header>
-  <div class="wrapper">
-
-    <nav class="menuDesktop">
-      <ul>
-        <a href="#about">
-          <li th:text="#{label.about.title}"></li>
-        </a>
-        <a href="#try">
-          <li th:text="#{label.try.title}"></li>
-        </a>
-        <a href="#why">
-          <li th:text="#{label.why.title}"></li>
-        </a>
-        <a href=" #available">
-          <li th:text="#{label.available.resources}"></li>
-        </a>
-        <a href="#suported">
-          <li th:text="#{label.suported}"></li>
-        </a>
-        <a href="#features">
-          <li th:text="#{label.features.title}"></li>
-        </a>
-      </ul>
-    </nav>
-    <main>
-      <section id="about">
-        <h2 th:text="#{label.about.title}"></h2>
-        <p th:text="#{label.about.text}"></p>
-      </section>
-
-      <section id="try">
-        <h2 th:text="#{label.try.title}"></h2>
-        <p th:text="#{label.try.text}"></p>
-        <div class="code-snippet">
-          <code>
-            fetch(<span>'https://dummydata.onrender.com/api/users/1'</span>) <br>
-            .then(response => response.json()) <br>
-            .then(json => console.log(json))
-          </code>
+    <header>
+        <button onclick="openMenu()" class="menuBurger">
+            <span id="menu1"> </span>
+            <span id="menu2"> </span>
+            <span id="menu3"> </span>
+        </button>
+        <nav class="menuMobile">
+            <ul>
+                <a href="#about">
+                    <li th:text="#{label.about.title}" onclick="openMenu()"></li>
+                </a>
+                <a href="#try">
+                    <li th:text="#{label.try.title}" onclick="openMenu()"></li>
+                </a>
+                <a href="#why">
+                    <li th:text="#{label.why.title}" onclick="openMenu()"></li>
+                </a>
+                <a href=" #available">
+                    <li th:text="#{label.available.resources}" onclick="openMenu()"></li>
+                </a>
+                <a href="#suported">
+                    <li th:text="#{label.suported}" onclick="openMenu()"></li>
+                </a>
+                <a href="#features">
+                    <li th:text="#{label.features.title}" onclick="openMenu()"></li>
+                </a>
+            </ul>
+            <button onclick="openMenu()">X</button>
+        </nav>
+        <div class="title">
+            <h1>DummyData API</h1>
+            <p>Instant Mock Data for Developers</p>
         </div>
-        <button onclick="userData()" class="fetchDataButton">Fetch Data</button>
-        <div class="fetchResult">{}</div>
 
-      </section>
-      <section id="why">
-        <h2 th:text="#{label.why.title}"></h2>
-        <p th:text="#{label.why.text}"></p>
-      </section>
-      <section id="available">
-        <h2 th:text="#{label.available.resources}"></h2>
-        <ul class="resources-list">
-          <li>
-            <a href="/api/users">
-              <strong>/users</strong>
-            </a>
-            <p th:text="#{label.available.resources.text1}"></p>
-          </li>
-          <li>
-            <a href="/api/comments">
-              <strong>/comments</strong>
-            </a>
-            <p th:text="#{label.available.resources.text2}"></p>
-          </li>
-          <li>
-            <a href="/api/images">
-              <strong>/images</strong>
-            </a>
-            <p th:text="#{label.available.resources.text3}"></p>
-          </li>
-        </ul>
-      </section>
-      <section id="suported">
-        <h2 th:text="#{label.suported}"></h2>
-        <ul class="routes-list">
-          <li>
-            <a href="/api/users">
-              <strong>GET</strong> /users
-            </a>
-          </li>
-          <li>
-            <a href="/api/users/1">
-              <strong>GET</strong> /users/1
-            </a>
-          </li>
+        <div class="languageSelector">
+            <!-- <label for="language" th:text="#{label.selecte.lang}"> </label> -->
+            <label for="language"> </label>
+            <select id="language" onchange="changeLanguage()">
+                <option th:text="#{label.lang}"></option>
+                <option value="en" th:text="#{label.english}"></option>
+                <option value="fr" th:text="#{label.french}"></option>
+                <option value="pt" th:text="#{label.portuguese}"></option>
+            </select>
+        </div>
+    </header>
+    <div class="wrapper">
 
-          <li>
-            <a href="/api/users?size=3">
-              <strong>GET</strong> /users?size=3
-            </a>
-          </li>
-          <li>
-            <a href="/api/users?lang=fr">
-              <strong>GET</strong> /users?lang=fr
-            </a>
-          </li>
-          <li>
-            <a href="/api/users?lang=fr&size=3">
-              <strong>GET</strong> /api/users?lang=fr&size=3
-            </a>
-          </li>
-          <br>
-          <li>
-            <a href="/api/comments">
-              <strong>GET</strong> /comments
-            </a>
-          </li>
-          <li>
-            <a href="/api/comments/1">
-              <strong>GET</strong> /comments/1
-            </a>
-          </li>
-          <br>
-          <li>
-            <a href="/api/images">
-              <strong>GET</strong> /images
-            </a>
-          </li>
-          <li>
-            <a href="/api/images/1">
-              <strong>GET</strong> /images/1
-            </a>
-          </li>
-        </ul>
-      </section>
-      <section id="features">
-        <h2 th:text="#{label.features.title}"></h2>
-        <ul class="routes-list">
-          <li>
-            <strong th:text="#{label.features.subtitle1}"></strong>
-            <p th:text="#{label.features.text1}"></p>
-          </li>
-          <br>
-          <li>
-            <strong th:text="#{label.features.subtitle2}"></strong>
-            <p th:text="#{label.features.text2}"></p>
-          </li>
-          <br>
-          <li>
-            <strong th:text="#{label.features.subtitle3}"></strong>
-            <br>
-            <p th:text="#{label.features.text3}"></p>
-          </li>
-        </ul>
-      </section>
-    </main>
-  </div>
-  <footer>
-    <p th:text="#{label.footer}"></p>
-    <a href="https://github.com/marceloxhenrique" target="_blank">
-      <span th:text="${name}"> </span>
-    </a>
-    &copy; 2024
-  </footer>
-  <script>
-    function changeLanguage() {
-      let selectedLang = document.getElementById("language").value;
-      window.location.href = "?lang=" + selectedLang;
-    }
+        <nav class="menuDesktop">
+            <ul>
+                <a href="#about">
+                    <li th:text="#{label.about.title}"></li>
+                </a>
+                <a href="#try">
+                    <li th:text="#{label.try.title}"></li>
+                </a>
+                <a href="#why">
+                    <li th:text="#{label.why.title}"></li>
+                </a>
+                <a href=" #available">
+                    <li th:text="#{label.available.resources}"></li>
+                </a>
+                <a href="#suported">
+                    <li th:text="#{label.suported}"></li>
+                </a>
+                <a href="#features">
+                    <li th:text="#{label.features.title}"></li>
+                </a>
+            </ul>
+        </nav>
+        <main>
+            <section id="about">
+                <h2 th:text="#{label.about.title}"></h2>
+                <p th:text="#{label.about.text}"></p>
+            </section>
 
-    const openMenu = () => {
-      const menuBurger = document.querySelector(".menuMobile")
-      menuBurger.classList.toggle("openCloseMenu")
-    }
+            <section id="try">
+                <h2 th:text="#{label.try.title}"></h2>
+                <p th:text="#{label.try.text}"></p>
+                <div class="code-snippet">
+                    <code>
+                    fetch(<span>'https://dummydata.onrender.com/api/users/1'</span>) <br>
+                    .then(response => response.json()) <br>
+                    .then(json => console.log(json))
+                </code>
+                </div>
+                <button onclick="userData()" class="fetchDataButton" th:text="#{label.try.button}"></button>
+                <div class="fetchResult">{}</div>
 
-    const userData = async () => {
-      const res = await fetch('http://localhost:8080/api/users/1');
-      const data = await res.json();
-      const fetchDisplayData = document.querySelector(".fetchResult")
-      fetchDisplayData.innerHTML = `<code>${JSON.stringify(data, null, 2)}</code>`;
-      return
-    }
-  </script>
+            </section>
+            <section id="why">
+                <h2 th:text="#{label.why.title}"></h2>
+                <p th:text="#{label.why.text}"></p>
+            </section>
+            <section id="available">
+                <h2 th:text="#{label.available.resources}"></h2>
+                <ul class="resources-list">
+                    <li>
+                        <a href="/api/users">
+                            <strong>/users</strong>
+                        </a>
+                        <p th:text="#{label.available.resources.text1}"></p>
+                    </li>
+                    <li>
+                        <a href="/api/comments">
+                            <strong>/comments</strong>
+                        </a>
+                        <p th:text="#{label.available.resources.text2}"></p>
+                    </li>
+                    <li>
+                        <a href="/api/images">
+                            <strong>/images</strong>
+                        </a>
+                        <p th:text="#{label.available.resources.text3}"></p>
+                    </li>
+                </ul>
+            </section>
+            <section id="suported">
+                <h2 th:text="#{label.suported}"></h2>
+                <ul class="routes-list">
+                    <li>
+                        <a href="/api/users">
+                            <strong>GET</strong> /api/users
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/api/users/1">
+                            <strong>GET</strong> /api/users/1
+                        </a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="/api/comments">
+                            <strong>GET</strong> /api/comments
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/api/comments/1">
+                            <strong>GET</strong> /api/comments/1
+                        </a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="/api/images">
+                            <strong>GET</strong> /api/images
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/api/images/1">
+                            <strong>GET</strong> /api/images/1
+                        </a>
+                    </li>
+                </ul>
+                <section class="customize-list">
+                    <h3 th:text="#{label.customize.title}"></h3>
+                    <div>
+                        <strong>Size: </strong>
+                        <p th:text="#{label.customize.size}"></p>
+                    </div>
+                    <div>
+                        <strong>Lang: </strong>
+                        <p th:text="#{label.customize.lang}"></p>
+                    </div>
+                    <ul>
+                        <li th:text="#{label.customize.li1}"></li>
+                        <li th:text="#{label.customize.li2}"></li>
+                        <li th:text="#{label.customize.li3}"></li>
+                    </ul>
+                </section>
+                <p th:text="#{label.customize.example}"></p>
+                <ul class="routes-list">
+                    <li>
+                        <a href="/api/users?size=3">
+                            <strong>GET</strong> /api/users?size=3
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/api/users?lang=fr">
+                            <strong>GET</strong>/api/users?lang=fr
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/api/users?lang=fr&size=3">
+                            <strong>GET</strong> /api/users?lang=fr&size=3
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section id="features">
+                <h2 th:text="#{label.features.title}"></h2>
+                <ul class="routes-list">
+                    <li>
+                        <strong th:text="#{label.features.subtitle1}"></strong>
+                        <p th:text="#{label.features.text1}"></p>
+                    </li>
+                    <br>
+                    <li>
+                        <strong th:text="#{label.features.subtitle2}"></strong>
+                        <p th:text="#{label.features.text2}"></p>
+                    </li>
+                    <br>
+                    <li>
+                        <strong th:text="#{label.features.subtitle3}"></strong>
+                        <br>
+                        <p th:text="#{label.features.text3}"></p>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <p th:text="#{label.footer}"></p>
+        <a href="https://github.com/marceloxhenrique" target="_blank">
+            <span th:text="${name}"> </span>
+        </a>
+        &copy; 2024
+    </footer>
+    <script>
+        function changeLanguage() {
+            let selectedLang = document.getElementById("language").value;
+            window.location.href = "?lang=" + selectedLang;
+        }
+
+        const openMenu = () => {
+            const menuBurger = document.querySelector(".menuMobile")
+            menuBurger.classList.toggle("openCloseMenu")
+        }
+
+        const userData = async () => {
+            const res = await fetch('http://localhost:8080/api/users/1');
+            const data = await res.json();
+            const fetchDisplayData = document.querySelector(".fetchResult")
+            fetchDisplayData.innerHTML = `<code>${JSON.stringify(data, null, 2)}</code>`;
+            return
+        }
+    </script>
 
 </body>
 

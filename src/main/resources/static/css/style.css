@@ -200,6 +200,7 @@
   h2,
   h3 {
     margin-top: 0;
+    margin-bottom: .5em;
     font-family: "Lato", sans-serif;
     font-weight: 700;
     color: #007BFF;
@@ -252,6 +253,31 @@
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.129)
   }
 
+  .customize-list {
+    padding: 0;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    /* margin: 0; */
+    /* background-color: red; */
+  }
+
+  .customize-list ul {
+    padding-left: 1.2em;
+    list-style-type: square;
+    margin: .5em 0;
+  }
+
+
+  .customize-list strong {
+    color: #007BFF;
+  }
+
+  .customize-list div {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: .5em;
+  }
+
   .resources-list,
   .routes-list {
     list-style: none;
@@ -259,7 +285,8 @@
   }
 
   .resources-list li strong,
-  .routes-list li strong {
+  .routes-list li strong,
+  .customize-list li strong {
     color: #007BFF;
   }
 
