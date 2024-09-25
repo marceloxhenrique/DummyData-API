@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <button onclick="openMenu()" class="menuBurger">
+        <button onclick="openCloseMenu()" class="menuBurger">
             <span id="menu1"> </span>
             <span id="menu2"> </span>
             <span id="menu3"> </span>
@@ -20,25 +20,25 @@
         <nav class="menuMobile">
             <ul>
                 <a href="#about">
-                    <li th:text="#{label.about.title}" onclick="openMenu()"></li>
+                    <li th:text="#{label.about.title}" onclick="openCloseMenu()"></li>
                 </a>
                 <a href="#try">
-                    <li th:text="#{label.try.title}" onclick="openMenu()"></li>
+                    <li th:text="#{label.try.title}" onclick="openCloseMenu()"></li>
                 </a>
                 <a href="#why">
-                    <li th:text="#{label.why.title}" onclick="openMenu()"></li>
+                    <li th:text="#{label.why.title}" onclick="openCloseMenu()"></li>
                 </a>
                 <a href=" #available">
-                    <li th:text="#{label.available.resources}" onclick="openMenu()"></li>
+                    <li th:text="#{label.available.resources}" onclick="openCloseMenu()"></li>
                 </a>
                 <a href="#suported">
-                    <li th:text="#{label.suported}" onclick="openMenu()"></li>
+                    <li th:text="#{label.suported}" onclick="openCloseMenu()"></li>
                 </a>
                 <a href="#features">
-                    <li th:text="#{label.features.title}" onclick="openMenu()"></li>
+                    <li th:text="#{label.features.title}" onclick="openCloseMenu()"></li>
                 </a>
             </ul>
-            <button onclick="openMenu()">X</button>
+            <button onclick="openCloseMenu()">X</button>
         </nav>
         <div class="title">
             <h1>DummyData API</h1>
@@ -96,7 +96,7 @@
                     .then(json => console.log(json))
                 </code>
                 </div>
-                <button onclick="userData()" class="fetchDataButton" th:text="#{label.try.button}"></button>
+                <button onclick="getUserData()" class="fetchDataButton" th:text="#{label.try.button}"></button>
                 <div class="fetchResult">{}</div>
 
             </section>
@@ -233,12 +233,12 @@
             window.location.href = "?lang=" + selectedLang;
         }
 
-        const openMenu = () => {
+        const openCloseMenu = () => {
             const menuBurger = document.querySelector(".menuMobile")
             menuBurger.classList.toggle("openCloseMenu")
         }
 
-        const userData = async () => {
+        const getUserData = async () => {
             const res = await fetch('http://localhost:8080/api/users/1');
             const data = await res.json();
             const fetchDisplayData = document.querySelector(".fetchResult")

@@ -103,6 +103,10 @@
     position: absolute;
   }
 
+  .menuMobile a {
+    text-decoration: none;
+  }
+
   .menuMobile button {
     display: flex;
     align-items: center;
@@ -164,6 +168,10 @@
     position: fixed;
     border-right: 0.1px solid rgba(0, 0, 0, 0.387);
     list-style-type: none;
+  }
+
+  .menuDesktop a {
+    text-decoration: none;
   }
 
   .menuDesktop ul li {
@@ -256,8 +264,7 @@
   .customize-list {
     padding: 0;
     margin-bottom: 1em;
-    margin-top: 1em;
-    /* margin: 0; */
+    margin-top: 1.5em;
     /* background-color: red; */
   }
 
@@ -322,7 +329,7 @@
   }
 
   a {
-    text-decoration: none;
+    text-decoration-color: #007BFF;
     color: rgb(23, 23, 23);
   }
 
