@@ -9,6 +9,8 @@ COPY . .
 
 RUN mvn clean install
 
+RUN ls target
+
 EXPOSE 8080
 
 CMD ["java", "-jar", "target/dummydata-0.0.1-SNAPSHOT.jar"]
