@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <button onclick="openCloseMenu()" class="menuBurger">
+        <button onclick="openCloseMenu()" aria-label="menu" class="menuBurger">
             <span id="menu1"> </span>
             <span id="menu2"> </span>
             <span id="menu3"> </span>
@@ -38,7 +38,7 @@
                     <li th:text="#{label.features.title}" onclick="openCloseMenu()"></li>
                 </a>
             </ul>
-            <button onclick="openCloseMenu()">X</button>
+            <button onclick="openCloseMenu()" aria-label="close">&times;</button>
         </nav>
         <div class="title">
             <h1>DummyData API</h1>
