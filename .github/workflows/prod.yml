@@ -26,7 +26,7 @@ jobs:
         run: docker login -u ${{secrets.DOCKER_USERNAME}} -p ${{secrets.DOCKER_PASSWORD}}
 
       - name: Build docker image
-        run: docker build --platform linux/amd64 -t marcelohds/dummydata .
+        run: docker build --platform linux/amd64 -t marcelohds/dummydata:1.0 .
 
       - name: Push docker image
-        run: docker push marcelohds/dummydata
+        run: docker push marcelohds/dummydata:1.0
