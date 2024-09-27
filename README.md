@@ -18,7 +18,7 @@
  <a href="#contribute">Contribute</a>
 </p>
 
-DummyData API is a flexible and easy-to-use API designed to provide developers with realistic mock data for testing and prototyping applications. With support for multiple languages and customizable data sets, DummyData API helps developers simulate real-world data environments, ensuring that testing is as accurate and reliable as possible.
+DummyData API is a flexible and easy-to-use API designed to provide developers with realistic mock data for testing and prototyping applications. With support for multiple languages (English, French and Portuguese) and customizable data sets, DummyData API helps developers simulate real-world data environments.
 
 <h2 id="started">🚀 Getting started</h2>
 
@@ -75,11 +75,11 @@ List of endpoints availables
 ​
 | route | description  
 |----------------------|-----------------------------------------------------
-| GET /api/users | retrieve all users [user](#get-users-detail)
+| GET /api/users | retrieve 100 users [user](#get-users-detail)
 | GET /api/users/1 | retrieve a specific user by id [user](#get-users-detail)
-| GET /api/comments | retrieve all comments [comment](#get-comments-detail)
-| GET /api/comment/1 | retrieve a specific comment by id [image](#get-comments-detail)
-| GET /api/images | retrieve all images [image](#get-images-detail)
+| GET /api/comments | retrieve 100 comments [comment](#get-comments-detail)
+| GET /api/comment/1 | retrieve a specific comment by id [comment](#get-comments-detail)
+| GET /api/images | retrieve 100 images [image](#get-images-detail)
 | GET /api/images/1 | retrieve a specific image by id [image](#get-images-detail)
 
 <h3 id="get-users-detail">User</h3>
@@ -101,7 +101,7 @@ List of endpoints availables
     "postalCode": "90001"
   },
   "role": "User"
-}
+} ... more 99 users
 ```
 
 <h3 id="get-comments-detail">Comment</h3>
@@ -113,7 +113,7 @@ List of endpoints availables
   "title": "Great Team Meeting!",
   "body": "I really enjoyed our team meeting today. The new project ideas were fantastic, and I appreciate everyone's input.",
   "createdAt": "2024-09-01T10:45:23"
-}
+} ... more 99 comments
 ```
 
 <h3 id="get-images-detail">Image</h3>
@@ -126,7 +126,127 @@ List of endpoints availables
   "width": 900,
   "height": 900,
   "title": "Captured Moment"
-}
+} ... more 99 images
+```
+
+<h3>You can customize your requests using the following parameters:</h3>
+<p><strong>Size: </strong>Use the size parameter to specify the number of records you want to retrieve, ranging from 1 to 100.</p>
+<p><strong>Lang: </strong>Use the lang parameter to choose the language of the data:</p>
+<ul>
+  <li>en - for English</li>
+  <li>fr - for French</li>
+  <li>pt - for Portuguese (Brazilian)</li>
+</ul>
+<p>Example:</p>
+
+| route                         | description                                               |
+| ----------------------------- | --------------------------------------------------------- |
+| GET /api/users?size=2         | retrieve 2 users [user](#get-2-users)                     |
+| GET /api/users?lang=fr        | retrieve 100 users in French [user](#get-users-french)    |
+| GET /api/users?lang=fr&size=2 | retrieve 2 users in French [comment](#get-2-users-french) |
+
+<h3 id="get-2-users">2 Users</h3>
+
+```json
+[
+  {
+    "id": 1,
+    "username": "markbradley",
+    "firstName": "Mark",
+    "lastName": "Bradley",
+    "birthDate": "1995-05-15",
+    "phone": "+1 202 555 1234",
+    "email": "mark.bradley@example.com",
+    "address": {
+      "country": "United States of America",
+      "state": "California",
+      "city": "Los Angeles",
+      "street": "123 Elm Street",
+      "postalCode": "90001"
+    },
+    "role": "User"
+  },
+  {
+    "id": 2,
+    "username": "janefoster",
+    "firstName": "Jane",
+    "lastName": "Foster",
+    "birthDate": "1991-08-22",
+    "phone": "+1 305 555 5678",
+    "email": "jane.foster@example.com",
+    "address": {
+      "country": "United States of America",
+      "state": "Florida",
+      "city": "Miami",
+      "street": "456 Maple Avenue",
+      "postalCode": "33101"
+    },
+    "role": "Admin"
+  }
+]
+```
+
+<h3 id="get-users-french">100 Users in French</h3>
+
+```json
+{
+    "id": 1,
+    "username": "jeandupont",
+    "firstName": "Jean",
+    "lastName": "Dupont",
+    "birthDate": "1995-05-15",
+    "phone": "+33 1 23 45 67 89",
+    "email": "jean.dupont@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Île-de-France",
+      "city": "Paris",
+      "street": "123 Rue de la Paix",
+      "postalCode": "75001"
+    },
+    "role": "Utilisateur"
+  } ... more 99 users in French
+```
+
+<h3 id="get-2-users-french">2 Users in French</h3>
+
+```json
+[
+  {
+    "id": 1,
+    "username": "jeandupont",
+    "firstName": "Jean",
+    "lastName": "Dupont",
+    "birthDate": "1995-05-15",
+    "phone": "+33 1 23 45 67 89",
+    "email": "jean.dupont@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Île-de-France",
+      "city": "Paris",
+      "street": "123 Rue de la Paix",
+      "postalCode": "75001"
+    },
+    "role": "Utilisateur"
+  },
+  {
+    "id": 2,
+    "username": "mariedurand",
+    "firstName": "Marie",
+    "lastName": "Durand",
+    "birthDate": "1991-08-22",
+    "phone": "+33 4 56 78 90 12",
+    "email": "marie.durand@example.fr",
+    "address": {
+      "country": "France",
+      "state": "Provence-Alpes-Côte d'Azur",
+      "city": "Marseille",
+      "street": "456 Avenue du Prado",
+      "postalCode": "13008"
+    },
+    "role": "Administrateur"
+  }
+]
 ```
 
 <h2 id="contribute">📫 Contribute</h2>
@@ -149,3 +269,5 @@ If you want to contribute, clone this repo, create your work branch and get your
 ```shell
 http://localhost:8080/swagger-ui/index.html
 ```
+
+<img width="500" alt="DummyData_API_Documentation_Image" src="https://github.com/user-attachments/assets/f713951c-3fe0-42e9-8299-29007a355bea">
