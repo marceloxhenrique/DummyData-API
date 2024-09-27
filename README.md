@@ -149,3 +149,4 @@ If you want to contribute, clone this repo, create your work branch and get your
 ```shell
 http://localhost:8080/swagger-ui/index.html
 ```
+<img width="500" alt="DummyData_API_Documentation_Image" src="https://github.com/user-attachments/assets/f713951c-3fe0-42e9-8299-29007a355bea">
