@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page not found</title>
+  <style>
+    :root {
+      --clr-primary: #007BFF;
+    }
+
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100vw;
+      height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      gap: 1em;
+    }
+
+    button {
+      padding: .4em 1em;
+      border: none;
+      border: .09em solid var(--clr-primary);
+      color: var(--clr-primary);
+      border-radius: .2em;
+      background-color: white;
+      font-weight: 600;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: var(--clr-primary);
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>Oops... something went wrong.</h1>
+    <h2>Page not found</h2>
+    <button onclick="redirectToHomePage()">Back to home</button>
+  </main>
+  <script>
+    function redirectToHomePage() {
+      window.location.href = "/";
+    }
+  </script>
+</body>
+
+</html>

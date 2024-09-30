@@ -14,7 +14,7 @@
       "street": "123 Rua da Alegria",
       "postalCode": "01000-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 2,
@@ -31,7 +31,7 @@
       "street": "456 Avenida Copacabana",
       "postalCode": "22000-000"
     },
-    "role": "Administrador"
+    "role": "Admin"
   },
   {
     "id": 3,
@@ -48,7 +48,7 @@
       "street": "789 Rua da Liberdade",
       "postalCode": "30100-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 4,
@@ -65,7 +65,7 @@
       "street": "321 Rua das Flores",
       "postalCode": "80000-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 5,
@@ -82,7 +82,7 @@
       "street": "654 Rua dos Andradas",
       "postalCode": "90000-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 6,
@@ -99,7 +99,7 @@
       "street": "303 Rua das Palmeiras",
       "postalCode": "74000-000"
     },
-    "role": "Administrador"
+    "role": "Admin"
   },
   {
     "id": 7,
@@ -116,7 +116,7 @@
       "street": "89 Rua da Aurora",
       "postalCode": "50000-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 8,
@@ -133,7 +133,7 @@
       "street": "12 Rua dos Girassóis",
       "postalCode": "24300-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 9,
@@ -150,7 +150,7 @@
       "street": "45 Rua da Paz",
       "postalCode": "13000-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 10,
@@ -167,7 +167,7 @@
       "street": "67 Rua das Orquídeas",
       "postalCode": "38400-000"
     },
-    "role": "Administrador"
+    "role": "Admin"
   },
   {
     "id": 11,
@@ -184,7 +184,7 @@
       "street": "78 Avenida das Américas",
       "postalCode": "28900-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 12,
@@ -201,7 +201,7 @@
       "street": "22 Rua das Palmeiras",
       "postalCode": "11000-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 13,
@@ -218,7 +218,7 @@
       "street": "99 Rua da Liberdade",
       "postalCode": "53000-000"
     },
-    "role": "Administrador"
+    "role": "Admin"
   },
   {
     "id": 14,
@@ -235,7 +235,7 @@
       "street": "53 Rua dos Cristais",
       "postalCode": "75000-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 15,
@@ -252,7 +252,7 @@
       "street": "15 Rua das Acácias",
       "postalCode": "32000-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 16,
@@ -269,7 +269,7 @@
       "street": "88 Avenida W3 Sul",
       "postalCode": "70000-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 17,
@@ -286,7 +286,7 @@
       "street": "45 Rua do Porto",
       "postalCode": "07000-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 18,
@@ -303,7 +303,7 @@
       "street": "12 Rua da Harmonia",
       "postalCode": "95000-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 19,
@@ -320,7 +320,7 @@
       "street": "33 Rua das Flores",
       "postalCode": "40000-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 20,
@@ -337,7 +337,7 @@
       "street": "23 Rua das Pedras",
       "postalCode": "28950-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 21,
@@ -354,7 +354,7 @@
       "street": "88 Rua da Vitória",
       "postalCode": "60000-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 22,
@@ -371,7 +371,7 @@
       "street": "55 Rua das Azaléias",
       "postalCode": "09100-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 23,
@@ -388,7 +388,7 @@
       "street": "42 Rua das Margaridas",
       "postalCode": "76600-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 24,
@@ -405,7 +405,7 @@
       "street": "77 Rua do Sol",
       "postalCode": "87000-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 25,
@@ -422,7 +422,7 @@
       "street": "88 Rua dos Coqueiros",
       "postalCode": "27400-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 26,
@@ -439,7 +439,7 @@
       "street": "39 Rua das Palmeiras",
       "postalCode": "75700-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 27,
@@ -456,7 +456,7 @@
       "street": "14 Rua do Sol",
       "postalCode": "28907-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 28,
@@ -473,7 +473,7 @@
       "street": "23 Rua da Alegria",
       "postalCode": "54300-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 29,
@@ -490,7 +490,7 @@
       "street": "67 Rua da Esperança",
       "postalCode": "09700-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 30,
@@ -507,7 +507,7 @@
       "street": "77 Rua das Hortênsias",
       "postalCode": "72800-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 31,
@@ -524,7 +524,7 @@
       "street": "34 Rua da Paz",
       "postalCode": "55000-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 32,
@@ -541,7 +541,7 @@
       "street": "15 Rua das Orquídeas",
       "postalCode": "96000-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 33,
@@ -558,7 +558,7 @@
       "street": "29 Rua da Esperança",
       "postalCode": "26200-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 34,
@@ -575,7 +575,7 @@
       "street": "88 Rua das Begônias",
       "postalCode": "09000-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 35,
@@ -592,7 +592,7 @@
       "street": "42 Rua dos Cedros",
       "postalCode": "39400-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 36,
@@ -609,7 +609,7 @@
       "street": "34 Rua das Acácias",
       "postalCode": "53400-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 37,
@@ -626,7 +626,7 @@
       "street": "56 Rua do Parque",
       "postalCode": "35500-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 38,
@@ -643,7 +643,7 @@
       "street": "77 Rua do Lago",
       "postalCode": "72900-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 39,
@@ -660,7 +660,7 @@
       "street": "88 Rua das Rosas",
       "postalCode": "09500-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 40,
@@ -677,7 +677,7 @@
       "street": "99 Rua da Vitória",
       "postalCode": "84000-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 41,
@@ -694,7 +694,7 @@
       "street": "44 Rua da Liberdade",
       "postalCode": "62000-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 42,
@@ -711,7 +711,7 @@
       "street": "54 Rua do Sol",
       "postalCode": "35100-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 43,
@@ -728,7 +728,7 @@
       "street": "23 Rua dos Eucaliptos",
       "postalCode": "93300-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 44,
@@ -745,7 +745,7 @@
       "street": "42 Rua da Paz",
       "postalCode": "44000-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 45,
@@ -762,7 +762,7 @@
       "street": "19 Rua das Margaridas",
       "postalCode": "25500-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 46,
@@ -779,7 +779,7 @@
       "street": "45 Rua do Centro",
       "postalCode": "18000-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 47,
@@ -796,7 +796,7 @@
       "street": "77 Rua dos Cedros",
       "postalCode": "38000-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 48,
@@ -813,7 +813,7 @@
       "street": "89 Rua da Esperança",
       "postalCode": "56300-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 49,
@@ -830,7 +830,7 @@
       "street": "56 Rua do Parque",
       "postalCode": "13500-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 50,
@@ -847,7 +847,7 @@
       "street": "90 Rua da Vitória",
       "postalCode": "27300-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 51,
@@ -864,7 +864,7 @@
       "street": "17 Rua dos Girassóis",
       "postalCode": "73800-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 52,
@@ -881,7 +881,7 @@
       "street": "31 Rua da Alegria",
       "postalCode": "36200-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 53,
@@ -898,7 +898,7 @@
       "street": "22 Rua dos Coqueiros",
       "postalCode": "25900-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 54,
@@ -915,7 +915,7 @@
       "street": "34 Rua do Horizonte",
       "postalCode": "53000-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 55,
@@ -932,7 +932,7 @@
       "street": "66 Rua do Sol",
       "postalCode": "70000-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 56,
@@ -949,7 +949,7 @@
       "street": "85 Rua da Praia",
       "postalCode": "40000-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 57,
@@ -966,7 +966,7 @@
       "street": "91 Rua dos Pinheiros",
       "postalCode": "86000-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 58,
@@ -983,7 +983,7 @@
       "street": "78 Rua das Palmeiras",
       "postalCode": "09700-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 59,
@@ -1000,7 +1000,7 @@
       "street": "40 Rua dos Cedros",
       "postalCode": "95000-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 60,
@@ -1017,7 +1017,7 @@
       "street": "54 Rua dos Corais",
       "postalCode": "57000-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 61,
@@ -1034,7 +1034,7 @@
       "street": "27 Rua das Acácias",
       "postalCode": "93000-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 62,
@@ -1051,7 +1051,7 @@
       "street": "89 Rua das Oliveiras",
       "postalCode": "07000-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 63,
@@ -1068,7 +1068,7 @@
       "street": "78 Rua do Amor",
       "postalCode": "54300-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 64,
@@ -1085,7 +1085,7 @@
       "street": "34 Rua dos Lírios",
       "postalCode": "32000-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 65,
@@ -1102,7 +1102,7 @@
       "street": "90 Rua das Dálias",
       "postalCode": "13400-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 66,
@@ -1119,7 +1119,7 @@
       "street": "56 Rua da Alegria",
       "postalCode": "45000-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 67,
@@ -1136,7 +1136,7 @@
       "street": "27 Rua da Liberdade",
       "postalCode": "35000-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 68,
@@ -1153,7 +1153,7 @@
       "street": "43 Rua dos Girassóis",
       "postalCode": "24400-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 69,
@@ -1170,7 +1170,7 @@
       "street": "68 Rua do Sol",
       "postalCode": "55000-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 70,
@@ -1187,7 +1187,7 @@
       "street": "90 Rua das Acácias",
       "postalCode": "75000-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 71,
@@ -1204,7 +1204,7 @@
       "street": "53 Rua dos Pinheiros",
       "postalCode": "93300-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 72,
@@ -1221,7 +1221,7 @@
       "street": "12 Rua do Céu",
       "postalCode": "72400-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 73,
@@ -1238,7 +1238,7 @@
       "street": "76 Rua do Vento",
       "postalCode": "45600-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 74,
@@ -1255,7 +1255,7 @@
       "street": "84 Rua das Flores",
       "postalCode": "25200-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 75,
@@ -1272,7 +1272,7 @@
       "street": "77 Rua dos Lírios",
       "postalCode": "14000-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 76,
@@ -1289,7 +1289,7 @@
       "street": "33 Rua do Sol",
       "postalCode": "38000-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 77,
@@ -1306,7 +1306,7 @@
       "street": "45 Rua da Luz",
       "postalCode": "79000-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 78,
@@ -1323,7 +1323,7 @@
       "street": "66 Rua das Flores",
       "postalCode": "85850-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 79,
@@ -1340,7 +1340,7 @@
       "street": "78 Rua da Paz",
       "postalCode": "72800-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 80,
@@ -1357,7 +1357,7 @@
       "street": "56 Rua dos Ipês",
       "postalCode": "09000-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 81,
@@ -1374,7 +1374,7 @@
       "street": "87 Rua das Palmeiras",
       "postalCode": "44000-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 82,
@@ -1391,7 +1391,7 @@
       "street": "54 Rua do Mar",
       "postalCode": "60000-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 83,
@@ -1408,7 +1408,7 @@
       "street": "23 Rua das Azaleias",
       "postalCode": "26000-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 84,
@@ -1425,7 +1425,7 @@
       "street": "67 Rua das Margaridas",
       "postalCode": "45200-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 85,
@@ -1442,7 +1442,7 @@
       "street": "35 Rua do Limoeiro",
       "postalCode": "57300-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 86,
@@ -1459,7 +1459,7 @@
       "street": "89 Rua dos Coqueiros",
       "postalCode": "35500-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 87,
@@ -1476,7 +1476,7 @@
       "street": "77 Rua do Sol",
       "postalCode": "48300-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 88,
@@ -1493,7 +1493,7 @@
       "street": "88 Rua das Hortênsias",
       "postalCode": "84000-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 89,
@@ -1510,7 +1510,7 @@
       "street": "49 Rua da Vitória",
       "postalCode": "33000-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 90,
@@ -1527,7 +1527,7 @@
       "street": "33 Rua dos Jacarandás",
       "postalCode": "09500-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 91,
@@ -1544,7 +1544,7 @@
       "street": "22 Rua das Bromélias",
       "postalCode": "74300-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 92,
@@ -1561,7 +1561,7 @@
       "street": "55 Rua das Palmeiras",
       "postalCode": "35700-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 93,
@@ -1578,7 +1578,7 @@
       "street": "33 Rua da Trilha",
       "postalCode": "55600-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 94,
@@ -1595,7 +1595,7 @@
       "street": "56 Rua das Açucenas",
       "postalCode": "35900-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 95,
@@ -1612,7 +1612,7 @@
       "street": "77 Rua da Aurora",
       "postalCode": "24300-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 96,
@@ -1629,7 +1629,7 @@
       "street": "22 Rua do Vento",
       "postalCode": "18000-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 97,
@@ -1646,7 +1646,7 @@
       "street": "66 Rua das Margaridas",
       "postalCode": "32300-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 98,
@@ -1663,7 +1663,7 @@
       "street": "44 Rua das Hortênsias",
       "postalCode": "63000-000"
     },
-    "role": "Usuário"
+    "role": "User"
   },
   {
     "id": 99,
@@ -1680,7 +1680,7 @@
       "street": "99 Rua dos Flamboyants",
       "postalCode": "25900-000"
     },
-    "role": "Moderador"
+    "role": "Moderator"
   },
   {
     "id": 100,
@@ -1697,6 +1697,6 @@
       "street": "12 Rua das Orquídeas",
       "postalCode": "57000-000"
     },
-    "role": "Usuário"
+    "role": "User"
   }
 ]

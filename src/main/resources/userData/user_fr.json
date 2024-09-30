@@ -14,7 +14,7 @@
       "street": "123 Rue de la Paix",
       "postalCode": "75001"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 2,
@@ -31,7 +31,7 @@
       "street": "456 Avenue du Prado",
       "postalCode": "13008"
     },
-    "role": "Administrateur"
+    "role": "Admin"
   },
   {
     "id": 3,
@@ -48,7 +48,7 @@
       "street": "789 Rue de la Liberté",
       "postalCode": "59000"
     },
-    "role": "Modérateur"
+    "role": "Moderator"
   },
   {
     "id": 4,
@@ -65,7 +65,7 @@
       "street": "321 Rue des Fleurs",
       "postalCode": "69001"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 5,
@@ -82,7 +82,7 @@
       "street": "654 Rue Sainte-Catherine",
       "postalCode": "33000"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 6,
@@ -99,7 +99,7 @@
       "street": "303 Rue des Palmiers",
       "postalCode": "31000"
     },
-    "role": "Administrateur"
+    "role": "Admin"
   },
   {
     "id": 7,
@@ -116,7 +116,7 @@
       "street": "89 Rue de la République",
       "postalCode": "76000"
     },
-    "role": "Modérateur"
+    "role": "Moderator"
   },
   {
     "id": 8,
@@ -133,7 +133,7 @@
       "street": "12 Rue des Rosiers",
       "postalCode": "67000"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 9,
@@ -150,7 +150,7 @@
       "street": "45 Rue de la Paix",
       "postalCode": "35000"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 10,
@@ -167,7 +167,7 @@
       "street": "67 Rue des Oliviers",
       "postalCode": "44000"
     },
-    "role": "Administrateur"
+    "role": "Admin"
   },
   {
     "id": 11,
@@ -184,7 +184,7 @@
       "street": "11 Rue de la Marine",
       "postalCode": "17000"
     },
-    "role": "Modérateur"
+    "role": "Moderator"
   },
   {
     "id": 12,
@@ -201,7 +201,7 @@
       "street": "7 Rue de l'Écusson",
       "postalCode": "34000"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 13,
@@ -218,7 +218,7 @@
       "street": "99 Promenade des Anglais",
       "postalCode": "06000"
     },
-    "role": "Administrateur"
+    "role": "Admin"
   },
   {
     "id": 14,
@@ -235,7 +235,7 @@
       "street": "5 Avenue de Paris",
       "postalCode": "78000"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 15,
@@ -252,7 +252,7 @@
       "street": "88 Rue Saint-Pierre",
       "postalCode": "14000"
     },
-    "role": "Modérateur"
+    "role": "Moderator"
   },
   {
     "id": 16,
@@ -269,7 +269,7 @@
       "street": "10 Rue de la Loge",
       "postalCode": "66000"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 17,
@@ -286,7 +286,7 @@
       "street": "6 Boulevard Foch",
       "postalCode": "49000"
     },
-    "role": "Modérateur"
+    "role": "Moderator"
   },
   {
     "id": 18,
@@ -303,7 +303,7 @@
       "street": "4 Rue d'Aguesseau",
       "postalCode": "92100"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 19,
@@ -320,7 +320,7 @@
       "street": "18 Rue des Basques",
       "postalCode": "64100"
     },
-    "role": "Administrateur"
+    "role": "Admin"
   },
   {
     "id": 20,
@@ -337,7 +337,7 @@
       "street": "22 Rue Blatin",
       "postalCode": "63000"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 21,
@@ -354,7 +354,7 @@
       "street": "9 Rue de la Liberté",
       "postalCode": "21000"
     },
-    "role": "Modérateur"
+    "role": "Moderator"
   },
   {
     "id": 22,
@@ -371,7 +371,7 @@
       "street": "17 Rue des Cordeliers",
       "postalCode": "86000"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 23,
@@ -388,7 +388,7 @@
       "street": "55 Avenue de la République",
       "postalCode": "94120"
     },
-    "role": "Administrateur"
+    "role": "Admin"
   },
   {
     "id": 24,
@@ -405,7 +405,7 @@
       "street": "21 Rue de Brehat",
       "postalCode": "29000"
     },
-    "role": "Modérateur"
+    "role": "Moderator"
   },
   {
     "id": 25,
@@ -422,7 +422,7 @@
       "street": "19 Rue de Verdun",
       "postalCode": "11000"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 26,
@@ -439,7 +439,7 @@
       "street": "33 Rue du Stade",
       "postalCode": "93216"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 27,
@@ -456,7 +456,7 @@
       "street": "8 Rue des Cordeliers",
       "postalCode": "13100"
     },
-    "role": "Modérateur"
+    "role": "Moderator"
   },
   {
     "id": 28,
@@ -473,7 +473,7 @@
       "street": "12 Rue Buirette",
       "postalCode": "51100"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 29,
@@ -490,7 +490,7 @@
       "street": "15 Rue de la République",
       "postalCode": "25000"
     },
-    "role": "Administrateur"
+    "role": "Admin"
   },
   {
     "id": 30,
@@ -507,7 +507,7 @@
       "street": "22 Rue des Arts",
       "postalCode": "42000"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 31,
@@ -524,7 +524,7 @@
       "street": "32 Boulevard de la Libération",
       "postalCode": "13001"
     },
-    "role": "Modérateur"
+    "role": "Moderator"
   },
   {
     "id": 32,
@@ -541,7 +541,7 @@
       "street": "4 Rue de la République",
       "postalCode": "80000"
     },
-    "role": "Administrateur"
+    "role": "Admin"
   },
   {
     "id": 33,
@@ -558,7 +558,7 @@
       "street": "99 Avenue Charles de Gaulle",
       "postalCode": "92200"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 34,
@@ -575,7 +575,7 @@
       "street": "20 Rue de la Paix",
       "postalCode": "57000"
     },
-    "role": "Modérateur"
+    "role": "Moderator"
   },
   {
     "id": 35,
@@ -592,7 +592,7 @@
       "street": "35 Rue du Général de Gaulle",
       "postalCode": "76600"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 36,
@@ -609,7 +609,7 @@
       "street": "12 Avenue Alsace-Lorraine",
       "postalCode": "38000"
     },
-    "role": "Administrateur"
+    "role": "Admin"
   },
   {
     "id": 37,
@@ -626,7 +626,7 @@
       "street": "28 Rue des Godrans",
       "postalCode": "21000"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 38,
@@ -643,7 +643,7 @@
       "street": "9 Boulevard du Général Leclerc",
       "postalCode": "92300"
     },
-    "role": "Modérateur"
+    "role": "Moderator"
   },
   {
     "id": 39,
@@ -660,7 +660,7 @@
       "street": "44 Rue du Général de Gaulle",
       "postalCode": "83000"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 40,
@@ -677,7 +677,7 @@
       "street": "50 Rue des Michel-Ange",
       "postalCode": "92100"
     },
-    "role": "Administrateur"
+    "role": "Admin"
   },
   {
     "id": 41,
@@ -694,7 +694,7 @@
       "street": "16 Rue de la Gare",
       "postalCode": "14000"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 42,
@@ -711,7 +711,7 @@
       "street": "66 Rue de la République",
       "postalCode": "78100"
     },
-    "role": "Modérateur"
+    "role": "Moderator"
   },
   {
     "id": 43,
@@ -728,7 +728,7 @@
       "street": "19 Rue de Paris",
       "postalCode": "89000"
     },
-    "role": "Administrateur"
+    "role": "Admin"
   },
   {
     "id": 44,
@@ -745,7 +745,7 @@
       "street": "14 Avenue de Paris",
       "postalCode": "78000"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 45,
@@ -762,7 +762,7 @@
       "street": "5 Rue des Lices",
       "postalCode": "84000"
     },
-    "role": "Modérateur"
+    "role": "Moderator"
   },
   {
     "id": 46,
@@ -779,7 +779,7 @@
       "street": "4 Rue du Soleil",
       "postalCode": "76600"
     },
-    "role": "Administrateur"
+    "role": "Admin"
   },
   {
     "id": 47,
@@ -796,7 +796,7 @@
       "street": "7 Rue de la Glacière",
       "postalCode": "94000"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 48,
@@ -813,7 +813,7 @@
       "street": "33 Rue du Général Leclerc",
       "postalCode": "13300"
     },
-    "role": "Modérateur"
+    "role": "Moderator"
   },
   {
     "id": 49,
@@ -830,7 +830,7 @@
       "street": "11 Boulevard Jean-Jaurès",
       "postalCode": "30000"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 50,
@@ -847,7 +847,7 @@
       "street": "21 Avenue des États-Unis",
       "postalCode": "63000"
     },
-    "role": "Administrateur"
+    "role": "Admin"
   },
   {
     "id": 51,
@@ -864,7 +864,7 @@
       "street": "29 Boulevard de l'Yser",
       "postalCode": "76000"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 52,
@@ -881,7 +881,7 @@
       "street": "9 Rue des Arts",
       "postalCode": "34000"
     },
-    "role": "Modérateur"
+    "role": "Moderator"
   },
   {
     "id": 53,
@@ -898,7 +898,7 @@
       "street": "18 Avenue Victor Hugo",
       "postalCode": "13100"
     },
-    "role": "Administrateur"
+    "role": "Admin"
   },
   {
     "id": 54,
@@ -915,7 +915,7 @@
       "street": "41 Boulevard du Général Leclerc",
       "postalCode": "95100"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 55,
@@ -932,7 +932,7 @@
       "street": "22 Rue de la Charité",
       "postalCode": "71100"
     },
-    "role": "Modérateur"
+    "role": "Moderator"
   },
   {
     "id": 56,
@@ -949,7 +949,7 @@
       "street": "6 Rue de la République",
       "postalCode": "11000"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 57,
@@ -966,7 +966,7 @@
       "street": "30 Avenue de la Gare",
       "postalCode": "03200"
     },
-    "role": "Administrateur"
+    "role": "Admin"
   },
   {
     "id": 58,
@@ -983,7 +983,7 @@
       "street": "55 Rue de la Liberté",
       "postalCode": "83000"
     },
-    "role": "Modérateur"
+    "role": "Moderator"
   },
   {
     "id": 59,
@@ -1000,7 +1000,7 @@
       "street": "8 Rue de la Mer",
       "postalCode": "62200"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 60,
@@ -1017,7 +1017,7 @@
       "street": "16 Boulevard de la Solidarité",
       "postalCode": "93100"
     },
-    "role": "Administrateur"
+    "role": "Admin"
   },
   {
     "id": 61,
@@ -1034,7 +1034,7 @@
       "street": "17 Rue du Palais",
       "postalCode": "30000"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 62,
@@ -1051,7 +1051,7 @@
       "street": "9 Rue de la Liberté",
       "postalCode": "67000"
     },
-    "role": "Modérateur"
+    "role": "Moderator"
   },
   {
     "id": 63,
@@ -1068,7 +1068,7 @@
       "street": "14 Rue de la Gare",
       "postalCode": "27000"
     },
-    "role": "Administrateur"
+    "role": "Admin"
   },
   {
     "id": 64,
@@ -1085,7 +1085,7 @@
       "street": "12 Boulevard de la République",
       "postalCode": "95200"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 65,
@@ -1102,7 +1102,7 @@
       "street": "27 Rue des Jardins",
       "postalCode": "26000"
     },
-    "role": "Modérateur"
+    "role": "Moderator"
   },
   {
     "id": 66,
@@ -1119,7 +1119,7 @@
       "street": "8 Boulevard Longchamp",
       "postalCode": "13001"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 67,
@@ -1136,7 +1136,7 @@
       "street": "7 Rue de l'Église",
       "postalCode": "58000"
     },
-    "role": "Administrateur"
+    "role": "Admin"
   },
   {
     "id": 68,
@@ -1153,7 +1153,7 @@
       "street": "22 Rue des Pyrénées",
       "postalCode": "66000"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 69,
@@ -1170,7 +1170,7 @@
       "street": "19 Rue des Tilleuls",
       "postalCode": "14000"
     },
-    "role": "Modérateur"
+    "role": "Moderator"
   },
   {
     "id": 70,
@@ -1187,7 +1187,7 @@
       "street": "50 Avenue de Saint-Cloud",
       "postalCode": "78000"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 71,
@@ -1204,7 +1204,7 @@
       "street": "4 Quai Louis Prunier",
       "postalCode": "17000"
     },
-    "role": "Administrateur"
+    "role": "Admin"
   },
   {
     "id": 72,
@@ -1221,7 +1221,7 @@
       "street": "23 Avenue de Champagne",
       "postalCode": "51100"
     },
-    "role": "Modérateur"
+    "role": "Moderator"
   },
   {
     "id": 73,
@@ -1238,7 +1238,7 @@
       "street": "11 Rue de la République",
       "postalCode": "42000"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 74,
@@ -1255,7 +1255,7 @@
       "street": "7 Rue de l'Opéra",
       "postalCode": "13100"
     },
-    "role": "Administrateur"
+    "role": "Admin"
   },
   {
     "id": 75,
@@ -1272,7 +1272,7 @@
       "street": "12 Rue des Écoles",
       "postalCode": "62000"
     },
-    "role": "Modérateur"
+    "role": "Moderator"
   },
   {
     "id": 76,
@@ -1289,7 +1289,7 @@
       "street": "33 Rue des Martyrs",
       "postalCode": "34000"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 77,
@@ -1306,7 +1306,7 @@
       "street": "25 Rue de la Gare",
       "postalCode": "95300"
     },
-    "role": "Modérateur"
+    "role": "Moderator"
   },
   {
     "id": 78,
@@ -1323,7 +1323,7 @@
       "street": "44 Boulevard de la République",
       "postalCode": "93200"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 79,
@@ -1340,7 +1340,7 @@
       "street": "58 Rue de la Gare",
       "postalCode": "89000"
     },
-    "role": "Administrateur"
+    "role": "Admin"
   },
   {
     "id": 80,
@@ -1357,7 +1357,7 @@
       "street": "12 Boulevard des Anglais",
       "postalCode": "83400"
     },
-    "role": "Modérateur"
+    "role": "Moderator"
   },
   {
     "id": 81,
@@ -1374,7 +1374,7 @@
       "street": "9 Rue de la Croix",
       "postalCode": "38000"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 82,
@@ -1391,7 +1391,7 @@
       "street": "5 Rue des Arènes",
       "postalCode": "81000"
     },
-    "role": "Administrateur"
+    "role": "Admin"
   },
   {
     "id": 83,
@@ -1408,7 +1408,7 @@
       "street": "76 Avenue du Général Leclerc",
       "postalCode": "77000"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 84,
@@ -1425,7 +1425,7 @@
       "street": "30 Rue du Bourg",
       "postalCode": "59000"
     },
-    "role": "Modérateur"
+    "role": "Moderator"
   },
   {
     "id": 85,
@@ -1442,7 +1442,7 @@
       "street": "11 Rue des Héros",
       "postalCode": "83000"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 86,
@@ -1459,7 +1459,7 @@
       "street": "65 Rue des Alpes",
       "postalCode": "26000"
     },
-    "role": "Administrateur"
+    "role": "Admin"
   },
   {
     "id": 87,
@@ -1476,7 +1476,7 @@
       "street": "48 Rue des Flandres",
       "postalCode": "59500"
     },
-    "role": "Modérateur"
+    "role": "Moderator"
   },
   {
     "id": 88,
@@ -1493,7 +1493,7 @@
       "street": "85 Rue du Docteur Roux",
       "postalCode": "48000"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 89,
@@ -1510,7 +1510,7 @@
       "street": "9 Boulevard de l'Indépendance",
       "postalCode": "91000"
     },
-    "role": "Modérateur"
+    "role": "Moderator"
   },
   {
     "id": 90,
@@ -1527,7 +1527,7 @@
       "street": "31 Rue des Docks",
       "postalCode": "76600"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 91,
@@ -1544,7 +1544,7 @@
       "street": "19 Rue de la Liberté",
       "postalCode": "71100"
     },
-    "role": "Administrateur"
+    "role": "Admin"
   },
   {
     "id": 92,
@@ -1561,7 +1561,7 @@
       "street": "22 Rue des Alpes",
       "postalCode": "74000"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 93,
@@ -1578,7 +1578,7 @@
       "street": "40 Rue des Ormes",
       "postalCode": "78000"
     },
-    "role": "Modérateur"
+    "role": "Moderator"
   },
   {
     "id": 94,
@@ -1595,7 +1595,7 @@
       "street": "9 Rue du Lycée",
       "postalCode": "13100"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 95,
@@ -1612,7 +1612,7 @@
       "street": "15 Rue du Parc",
       "postalCode": "21000"
     },
-    "role": "Administrateur"
+    "role": "Admin"
   },
   {
     "id": 96,
@@ -1629,7 +1629,7 @@
       "street": "25 Rue des Anémones",
       "postalCode": "11100"
     },
-    "role": "Modérateur"
+    "role": "Moderator"
   },
   {
     "id": 97,
@@ -1646,7 +1646,7 @@
       "street": "7 Rue de la Gare",
       "postalCode": "42300"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 98,
@@ -1663,7 +1663,7 @@
       "street": "28 Rue de la Mer",
       "postalCode": "76200"
     },
-    "role": "Modérateur"
+    "role": "Moderator"
   },
   {
     "id": 99,
@@ -1680,7 +1680,7 @@
       "street": "66 Rue de la Solidarité",
       "postalCode": "92100"
     },
-    "role": "Utilisateur"
+    "role": "User"
   },
   {
     "id": 100,
@@ -1697,6 +1697,6 @@
       "street": "13 Boulevard du Soleil",
       "postalCode": "06000"
     },
-    "role": "Administrateur"
+    "role": "Admin"
   }
 ]
