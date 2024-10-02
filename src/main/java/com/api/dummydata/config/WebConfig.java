@@ -28,8 +28,9 @@ public class WebConfig implements WebMvcConfigurer {
     LocaleResolver localeResolver() {
         return new CookieLocaleResolver();
     }
-
-    public void addCorsMapping(CorsRegistry registry){
+    
+    @Override
+    public void addCorsMappings(@NonNull CorsRegistry registry){
         registry.addMapping("/**")
             .allowedOrigins("*")
             .allowedMethods("GET")
