@@ -239,7 +239,7 @@
         }
 
         const getUserData = async () => {
-            const res = await fetch('https://dummydata-1-0.onrender.com/api/users/1');
+            const res = await fetch('https://dummydata-2yft.onrender.com/api/users/1');
             const data = await res.json();
             const fetchDisplayData = document.querySelector(".fetchResult")
             fetchDisplayData.innerHTML = `<code>${JSON.stringify(data, null, 2)}</code>`;
