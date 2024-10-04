@@ -14,6 +14,7 @@
 
 <p>
  <a href="#started">Getting Started</a> -
+ <a href="#ci-cd">CI/CD Pipeline</a> -
  <a href="#routes">API Endpoints</a> -
  <a href="#contribute">Contribute</a>
 </p>
@@ -68,6 +69,23 @@ spring.data.web.pageable.max-page-size=999999999
 ```shell
 mvn spring-boot:run
 ```
+
+<h2 id="ci-cd">📦 CI/CD Pipeline</h2>
+
+<p>CI / CD pipeline using GitHub Actions.</p>
+
+<h3>Workflows</h3>
+
+<ul>
+  <li>
+    <strong>Run Tests on push to Dev branch:</strong> 
+    <p>This workflow is triggered on every push to the <code>dev</code> branch. It runs the tests to ensure that the code is working as expected. The tests are run using JDK 17 and Maven.</p>
+  </li>
+  <li>
+    <strong>Deploy App on pull request to Main branch:</strong> 
+      <p>This workflow is triggered when a pull request is made to the <code>main</code> branch. It builds the project using Maven, creates a Docker image, and pushes the image to Docker Hub. Additionally, it triggers the deployment on Render, which deploys the application using the newly built Docker image version.</p>
+  </li>
+</ul>
 
 <h2 id="routes">📍 API Endpoints</h2>
 
