@@ -4,7 +4,7 @@
 [JUNIT_BADGE]: https://img.shields.io/badge/Junit5-25A162?style=for-the-badge&logo=junit5&logoColor=white
 [THYMELEAF_BADGE]: https://img.shields.io/badge/Thymeleaf-005F0F?style=for-the-badge&logo=Thymeleaf&logoColor=white
 [DOCKER]: https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=fff
-[GITHUBACTIONS]: https://img.shields.io/badge/githubactions-2496ED?style=for-the-badge&logo=githubactions&logoColor=fff
+[GITHUBACTIONS]: https://img.shields.io/badge/Github%20Actions-2496ED?style=for-the-badge&logo=githubactions&logoColor=fff
 
 <h1 style="font-weight: bold;">DummyData API</h1>
 
