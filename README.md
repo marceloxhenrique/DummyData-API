@@ -1,3 +1,5 @@
+<img width="600" alt="DummyData image" src="https://github.com/user-attachments/assets/e9e26fb3-163e-4872-9261-0750e38495a6" />
+
 [JAVA_BADGE]: https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white
 [SPRING_BOOT]: https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=fff
 [SWAGGER_BADGE]: https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=Swagger&logoColor=white&textColor=white
